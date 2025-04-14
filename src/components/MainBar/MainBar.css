@@ -1,0 +1,40 @@
+.header {
+    width: 100%;
+    max-width: 1020px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.header-content {
+    width: 100%;
+    max-width: 1020px;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    text-align: left;
+    max-width: 230px;
+    width: 100%;
+}
+
+.sponsor {
+    margin: 0 !important;
+}
+
+@media (max-width: 998px) {
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        text-align: center;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+    .sponsor {
+        display: none;
+    }
+}
