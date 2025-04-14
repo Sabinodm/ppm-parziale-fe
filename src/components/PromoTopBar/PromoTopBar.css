@@ -1,0 +1,35 @@
+.top-bar{
+    position: sticky;
+    background: #f7941E;
+    width: auto;
+    text-align: center;
+    padding: 6px 5px 5px;
+    margin-bottom: -1px;
+}
+
+.promo-top-bar {
+    background: #f7941E;
+    width: auto;
+    border: 1px solid #ccc9;
+    margin: auto;
+    max-width: 998px;
+    padding: 6px 5px 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    transition: border 0.4s;
+
+}
+
+.promo-top-bar:hover {
+    border: 1px solid white;
+    transition: border 0.4s;
+}
+
+.top-bar-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
