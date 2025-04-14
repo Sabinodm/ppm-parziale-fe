@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ppm-parziale-fe/static/css/main.6bae9bbb.css",
+    "main.js": "/ppm-parziale-fe/static/js/main.7b135165.js",
+    "index.html": "/ppm-parziale-fe/index.html",
+    "main.6bae9bbb.css.map": "/ppm-parziale-fe/static/css/main.6bae9bbb.css.map",
+    "main.7b135165.js.map": "/ppm-parziale-fe/static/js/main.7b135165.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bae9bbb.css",
+    "static/js/main.7b135165.js"
+  ]
+}
