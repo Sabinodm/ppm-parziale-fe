@@ -1,7 +1,9 @@
 import React from "react";
 import './FullNavBar.css';
 import DropDownButton from "../DropDownButton/DropDownButton";
+import NavDButton from "../NavDButton/NavDButton";
 import {DropdownInterface} from "../../interfaces/DropdownInterface";
+import SpecialDropDownButton from "../SpecialDropDown/SpecialDropDown";
 
 export default function FullNavbar() {
     const elements: any[] = [
@@ -47,14 +49,27 @@ export default function FullNavbar() {
         }
     ]
 
+    const specialDropdown: any[] = [
+        {
+            key: 'SUPPORT',
+            buttonLink: '#',
+            values: [{name:'Support', link:'#'}, {name:'Subscribe', link:'#'}, {name:'Advertise', link:'#'}, {name:'Instagram', link:'#'}, {name:'Twitter', link:'#'}, {name:'Facebook', link:'#'}],
+        }
+    ]
+
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <div className="navbar-nav">
                             {elements.map((item: DropdownInterface) => (
-                            <DropDownButton item={item}/>
+                                <DropDownButton item={item}/>
                             ))}
+                            <NavDButton label='SLIDESHOW' buttonLink='#'/>
+                            {specialDropdown.map((item: DropdownInterface) => (
+                                <SpecialDropDownButton item={item}/>
+                            ))}
+
                         </div>
 
                     </div>
