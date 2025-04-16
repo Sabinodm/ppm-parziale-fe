@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Open Sans Condensed";
+    src: local("Open Sans Condensed"),
+        url("./font/open-sans-condensed/OpenSans-CondBold.ttf") format("truetype");
+    font-weight: bold;
+}
+
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #fff;
