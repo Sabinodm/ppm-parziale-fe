@@ -7,7 +7,12 @@ export default function MainBar(){
     return (
         <Container className="header">
             <div className="header-content">
-                <Image src="https://picsum.photos/230/97" alt="Logo" className="logo"/>
+                <h1 className="margin-remove">
+                    <a className="link-logo" href="#" title='Orlando Weekly' >
+                        <Image src="https://picsum.photos/230/97" alt="Logo" className="logo"/>
+                    </a>
+
+                </h1>
                 <Image src="https://picsum.photos/728/90" alt="Logo" className="sponsor"/>
             </div>
             <FullNavbar />
