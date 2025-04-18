@@ -4,7 +4,7 @@
     width: auto;
     text-align: center;
     padding: 6px 5px 5px;
-    margin-bottom: -1px;
+    margin: -1px 0px 0px;
 }
 
 .promo-top-bar {
@@ -33,4 +33,5 @@
     letter-spacing: 1px;
     font-weight: 400;
     font-family: Lato, Helvetica, Arial,  sans-serif;
+    padding: 5px 20px;
 }
