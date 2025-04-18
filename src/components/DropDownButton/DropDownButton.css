@@ -25,6 +25,7 @@
     text-align: center;
     width: 100%;
     list-style: none;
+    min-width: 37px;
 }
 
 .dropdown-menu {

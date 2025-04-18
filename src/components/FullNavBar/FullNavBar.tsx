@@ -4,6 +4,7 @@ import DropDownButton from "../DropDownButton/DropDownButton";
 import NavDButton from "../NavDButton/NavDButton";
 import {DropdownInterface} from "../../interfaces/DropdownInterface";
 import SpecialDropDownButton from "../SpecialDropDown/SpecialDropDown";
+import LoginButton from "../LoginButton/LoginButton";
 
 export default function FullNavbar() {
     const elements: any[] = [
@@ -69,7 +70,7 @@ export default function FullNavbar() {
                             {specialDropdown.map((item: DropdownInterface) => (
                                 <SpecialDropDownButton item={item}/>
                             ))}
-
+                            <LoginButton />
                         </div>
 
                     </div>
