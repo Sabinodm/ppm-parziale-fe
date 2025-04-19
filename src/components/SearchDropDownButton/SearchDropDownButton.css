@@ -1,0 +1,11 @@
+.flip-horizontal {
+    transform: scaleX(-1);
+}
+
+.search-box {
+    margin: 2px  ;
+}
+
+.search-item {
+    color: #666;
+}

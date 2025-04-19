@@ -11,7 +11,6 @@ export default function MainBar(){
                     <a className="link-logo" href="#" title='Orlando Weekly' >
                         <Image src="https://picsum.photos/230/97" alt="Logo" className="logo"/>
                     </a>
-
                 </h1>
                 <Image src="https://picsum.photos/728/90" alt="Logo" className="sponsor"/>
             </div>

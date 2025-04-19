@@ -5,6 +5,7 @@ import NavDButton from "../NavDButton/NavDButton";
 import {DropdownInterface} from "../../interfaces/DropdownInterface";
 import SpecialDropDownButton from "../SpecialDropDown/SpecialDropDown";
 import LoginButton from "../LoginButton/LoginButton";
+import SearchDropDownButton from "../SearchDropDownButton/SearchDropDownButton";
 
 export default function FullNavbar() {
     const elements: any[] = [
@@ -58,6 +59,14 @@ export default function FullNavbar() {
         }
     ]
 
+    const searchDropdown: any[] = [
+        {
+            key: 'SEARCH',
+            buttonLink: '#',
+            values: [{name:'in Article & Posts', link:'#'}, {name:'in Slideshows', link:'#'}, {name:'in Events', link:'#'}, {name:'in Locations', link:'#'}, {name:'All', link:'#'}],
+        }
+    ]
+
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
@@ -71,6 +80,10 @@ export default function FullNavbar() {
                                 <SpecialDropDownButton item={item}/>
                             ))}
                             <LoginButton />
+                            {searchDropdown.map((item: DropdownInterface) => (
+                                <SearchDropDownButton item={item}/>
+                            ))}
+
                         </div>
 
                     </div>
