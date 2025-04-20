@@ -3,9 +3,60 @@
 }
 
 .search-box {
-    margin: 2px  ;
+    border-bottom: 1px solid #000000;
+}
+
+.search-input-box {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 292px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #ccc;
+    height: 40px;
+    align-content: center;
+    align-items: baseline;
+    margin: 4px;
+}
+
+.search-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+}
+
+.icon  {
+    width: 20px;
+    height: 20px;
+}
+
+.search-input {
+    padding-left: 40px;
+    border: none;
+    font-size: 16px;
+    color: #999;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+
 }
 
 .search-item {
     color: #666;
+}
+
+.search-input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+
+.special-wrapper {
+    justify-content: flex-end;
 }

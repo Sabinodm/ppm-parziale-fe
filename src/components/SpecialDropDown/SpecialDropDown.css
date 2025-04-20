@@ -10,3 +10,11 @@
     font-weight: 500;
     font-family: 'Open Sans Condensed', sans-serif;
 }
+
+
+@media (max-width: 1310px) {
+    .special-wrap {
+        justify-content: flex-end;
+    }
+
+}
