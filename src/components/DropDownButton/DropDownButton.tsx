@@ -1,7 +1,7 @@
 import React from "react";
 import './DropDownButton.css';
 import {DropdownInterface} from "../../interfaces/DropdownInterface";
-import NavDButton from "../NavDButton/NavDButton";
+import FullNavButton from "../FullNavButton/FullNavButton";
 interface DropdownParameters {
     item: DropdownInterface
 }
@@ -9,7 +9,7 @@ export default function DropDownButton ({item} : DropdownParameters) {
     return (
         <div className="nav-item dropdown">
                 <>
-                    <NavDButton label={item.key} buttonLink={item.buttonLink}/>
+                    <FullNavButton label={item.key} buttonLink={item.buttonLink}/>
                     <div className="wrapper">
                         <ul className="dropdown-menu">
                             {item.values.slice(0, -1).map((value: any, index: number) => (

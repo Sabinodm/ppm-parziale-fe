@@ -30,7 +30,7 @@ export default function DropDownButton ({item} : DropdownParameters) {
                             ))}
                             <a className="dropdown-item special-last search-item" href={item.values[item.values.length - 1].link}> {item.values[item.values.length - 1].name}</a>
                         </ul>
-</div>
+                </div>
         </div>
     );
 }
