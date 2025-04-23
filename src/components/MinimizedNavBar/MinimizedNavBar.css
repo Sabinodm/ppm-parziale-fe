@@ -33,7 +33,7 @@
     position: absolute;
     width: 270px;
     height: 100vh;
-    padding: 9px;
+    padding: 5px;
 }
 
 .side-filling {
@@ -44,6 +44,9 @@
     width: 100%;
     box-sizing: border-box;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .side-menu-item {
