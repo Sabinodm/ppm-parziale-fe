@@ -1,0 +1,32 @@
+.side-dropdown-menu {
+    display: flex;
+}
+
+.minimized-item {
+    width: 100%;
+}
+
+.side-button {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.minimized-nav-mod{
+    border-left: none;
+}
+
+.side-nav-wrapper {
+    position: relative;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 9px 4px 0px;
+    transition: background-color 0.3s ease;
+}
+
+/*.side-button:hover {*/
+/*    background-color: #f7941E;*/
+/*    color: #fff;*/
+/*}*/

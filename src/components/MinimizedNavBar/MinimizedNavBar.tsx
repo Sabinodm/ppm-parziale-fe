@@ -6,6 +6,8 @@ import {Button} from "react-bootstrap";
 import MinimizedNavButton from "../MinimizedNavButton/MinimizedNavButton";
 import {DropdownInterface} from "../../interfaces/DropdownInterface";
 import DropDownButton from "../DropDownButton/DropDownButton";
+import MinimizedDropDown from "../MinimizedDropdown/MinimizedDropdown";
+import MinimizedSpNavButton from "../MinimizedSpNavButton/MinimizedSpNavButton";
 
 export default function MinimizedNavBar ({elements, specialElements, specialDropdown, onlyMinimizedElements} : any) {
 
@@ -28,16 +30,16 @@ export default function MinimizedNavBar ({elements, specialElements, specialDrop
             <div className="side-menu" id="dropdown">
                 <div className="item-container">
                     {elements.map((item: DropdownInterface) => (
-                        <DropDownButton item={item}/>
+                        <MinimizedDropDown item={item}/>
                     ))}
                     {specialElements.map((item: DropdownInterface) => (
-                        <MinimizedNavButton label={item.key} buttonLink={item.buttonLink}/>
+                        <MinimizedSpNavButton label={item.key} buttonLink={item.buttonLink}/>
                     ))}
-                    {specialDropdown.map((item: any) => (
-                        <MinimizedNavButton label={item.key} buttonLink={item.buttonLink}/>
+                    {specialDropdown.map((item: DropdownInterface) => (
+                        <MinimizedDropDown item={item}/>
                     ))}
                     {onlyMinimizedElements.map((item: any) => (
-                        <MinimizedNavButton label={item.key} buttonLink={item.buttonLink}/>
+                        <MinimizedDropDown item={item}/>
                     ))}
                 </div>
             </div>

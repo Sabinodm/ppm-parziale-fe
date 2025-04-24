@@ -128,7 +128,7 @@ export default function MainBar(){
         }
     ]
 
-    const onlyMinimizedElements: any = [
+    const onlyMinimizedElements: any[] = [
         {
             key: 'ABOUT US',
             buttonLink: '#',

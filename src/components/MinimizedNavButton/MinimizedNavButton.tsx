@@ -1,18 +1,16 @@
 import React from "react";
 import './MinimizedNavButton.css';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faChevronLeft} from '@fortawesome/free-solid-svg-icons';
+import {faChevronLeft} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-export default function MinimizedNavButton ({label, buttonLink} : {label: string, buttonLink: string}) {
+export default function MinimizedNavButton ({label, buttonLink} : {label: string, buttonLink: string}, chevron:boolean) {
+
     return (
         <div className="minimized-nav-item">
-            <div className="side-nav-wrapper">
-                <a href={buttonLink} className="side-nav-button" aria-expanded="false">
-                    {label}
-                </a>
+            <a href={buttonLink} className="side-nav-button" aria-expanded="false">
+                {label}
                 <FontAwesomeIcon icon={faChevronLeft} className="chevron" />
-            </div>
+            </a>
         </div>
-
     );
 }
