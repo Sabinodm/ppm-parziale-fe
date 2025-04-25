@@ -3,9 +3,7 @@ import './MinimizedNavBar.css';
 import {faBars} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Button} from "react-bootstrap";
-import MinimizedNavButton from "../MinimizedNavButton/MinimizedNavButton";
 import {DropdownInterface} from "../../interfaces/DropdownInterface";
-import DropDownButton from "../DropDownButton/DropDownButton";
 import MinimizedDropDown from "../MinimizedDropdown/MinimizedDropdown";
 import MinimizedSpNavButton from "../MinimizedSpNavButton/MinimizedSpNavButton";
 
@@ -45,11 +43,6 @@ export default function MinimizedNavBar ({elements, specialElements, specialDrop
             </div>
             <div onClick={toggleShow} className="side-filling" id="dropdown"></div>
         </div>
-
-
-
-
-
         </>
     );
 }

@@ -4,6 +4,7 @@ import {Container, Image, Navbar} from "react-bootstrap";
 import FullNavbar from "../FullNavBar/FullNavBar";
 import MininizedNavBar from "../MinimizedNavBar/MinimizedNavBar";
 import {DropdownInterface} from "../../interfaces/DropdownInterface";
+import SearchButtonPopUp from "../SearchButtonPopUp/SearchButtonPopUp";
 
 export default function MainBar(){
 
@@ -157,6 +158,7 @@ export default function MainBar(){
                     </a>
                 </h1>
                 <Image src="https://picsum.photos/728/90" alt="Logo" className="sponsor"/>
+                <SearchButtonPopUp searchDropdown={searchDropdown}/>
             </div>
             <FullNavbar elements={elements} specialElements={specialElements} specialDropdown={specialDropdown} searchDropdown={searchDropdown}/>
         </Container>
