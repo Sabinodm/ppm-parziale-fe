@@ -4,7 +4,7 @@ export default function MinimizedSpNavButton ({label, buttonLink} : {label: stri
 
     return (
         <div className="minimized-nav-item">
-            <a href={buttonLink} className="side-nav-button" aria-expanded="false">
+            <a href={buttonLink} className="side-nav-button sp" aria-expanded="false">
                 {label}
             </a>
         </div>

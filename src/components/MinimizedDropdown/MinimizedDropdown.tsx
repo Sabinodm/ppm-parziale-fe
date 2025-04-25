@@ -9,20 +9,24 @@ interface DropdownParameters {
 }
 export default function MinimizedDropDown ({item} : DropdownParameters) {
 
-    function toggleOpen() {
-        const open = document.getElementById('side-dropdown');
+    function toggleOpen(key: string) {
+        const chevron = document.getElementById(`chevron-${key}`);
+        const open = document.getElementById(`side-dropdown-${key}`);
         if (open) {
             open.classList.toggle('open-dropdown');
+        }
+        if (chevron) {
+            chevron.classList.toggle('rotate-chevron');
         }
     }
 
     return (
         <div className="minimized-item dropdown">
             <>
-                <div onClick={toggleOpen} className="side-button">
+                <div onClick={() => toggleOpen(item.key)} className="side-button">
                     <MinimizedNavButton label={item.key} buttonLink={item.buttonLink}/>
                 </div>
-                <div className="side-nav-wrapper" id="side-dropdown">
+                <div className="side-nav-wrapper" id={`side-dropdown-${item.key}`}>
                     <ul className="side-dropdown-menu">
                         {item.values.map((value: any, index: number) => (
                             <a className="side-dropdown-item" href={value.link}>{value.name}</a>

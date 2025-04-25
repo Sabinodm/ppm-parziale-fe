@@ -3,6 +3,7 @@
     flex-direction: column;
     padding: 5px;
     margin: 0px;
+    width: 100%;
 }
 
 .side-dropdown-item{
@@ -39,3 +40,14 @@
 .open-dropdown {
     display: flex;
 }
+
+.side-dropdown-item:hover {
+    color: #fff;
+    background-color: #f7941E;
+    transition: background-color 0.2s;
+}
+
+.minimized-item.dropdown:hover  .side-nav-button {
+        background-color: #f7941E;
+        color: #fff;
+    }
