@@ -5,6 +5,14 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    src: local("Montserrat"),
+            url("./font/Montserrat/Montserrat-VariableFont_wght.ttf") format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #fff;

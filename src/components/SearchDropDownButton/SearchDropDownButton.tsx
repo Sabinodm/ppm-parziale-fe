@@ -6,7 +6,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 interface DropdownParameters {
     item: DropdownInterface
 }
-export default function DropDownButton ({item} : DropdownParameters) {
+export default function SearchDropDownButton ({item} : DropdownParameters) {
     return (
         <div className="nav-item dropdown">
                 <div className="search-header">
