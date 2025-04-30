@@ -23,7 +23,7 @@
     height: fit-content;
 }
 
-.header-wrapper {
+.header-wrapper-popUp {
     display: flex;
     justify-content: space-between;
 }

@@ -1,11 +1,20 @@
 .header {
     width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    right: 0;
+}
+
+.header-container {
+    width: 100%;
     max-width: 1020px;
     margin: auto;
     box-sizing: border-box;
 }
 
-.header-content {
+.header-wrapper {
     position: relative;
     padding: 10px 0px;
     display: flex;
@@ -43,7 +52,7 @@
 }
 
 @media (max-width: 998px) {
-    .header-content {
+    .header-wrapper {
         align-items: center;
     }
     .logo {
@@ -54,7 +63,7 @@
     .sponsor {
         display: none;
     }
-    .header {
+    .header-container {
         box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
     }
 }

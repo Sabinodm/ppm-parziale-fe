@@ -1,9 +1,8 @@
 import React from "react";
 import './MainBar.css';
-import {Container, Image, Navbar} from "react-bootstrap";
+import {Container, Image} from "react-bootstrap";
 import FullNavbar from "../FullNavBar/FullNavBar";
 import MininizedNavBar from "../MinimizedNavBar/MinimizedNavBar";
-import {DropdownInterface} from "../../interfaces/DropdownInterface";
 import SearchButtonPopUp from "../SearchButtonPopUp/SearchButtonPopUp";
 
 export default function MainBar(){
@@ -149,18 +148,21 @@ export default function MainBar(){
 
 
     return (
-        <Container className="header">
-            <div className="header-content">
-                <MininizedNavBar elements={elements} specialElements={specialElements} specialDropdown={specialDropdown} onlyMinimizedElements={onlyMinimizedElements} />
-                <h1 className="margin-remove">
-                    <a className="link-logo" href="#" title='Orlando Weekly' >
-                        <Image src="https://picsum.photos/230/97" alt="Logo" className="logo"/>
-                    </a>
-                </h1>
-                <Image src="https://picsum.photos/728/90" alt="Logo" className="sponsor"/>
-                <SearchButtonPopUp searchDropdown={searchDropdown}/>
-            </div>
-            <FullNavbar elements={elements} specialElements={specialElements} specialDropdown={specialDropdown} searchDropdown={searchDropdown}/>
-        </Container>
+        <div className="header">
+            <Container className="header-container">
+
+                <div className="header-wrapper">
+                    <MininizedNavBar elements={elements} specialElements={specialElements} specialDropdown={specialDropdown} onlyMinimizedElements={onlyMinimizedElements} />
+                    <h1 className="margin-remove">
+                        <a className="link-logo" href="#" title='Orlando Weekly' >
+                            <Image src="https://picsum.photos/230/97" alt="Logo" className="logo"/>
+                        </a>
+                    </h1>
+                    <Image src="https://picsum.photos/728/90" alt="Sponsor" className="sponsor"/>
+                    <SearchButtonPopUp searchDropdown={searchDropdown}/>
+                </div>
+                <FullNavbar elements={elements} specialElements={specialElements} specialDropdown={specialDropdown} searchDropdown={searchDropdown}/>
+            </Container>
+        </div>
     );
 }
