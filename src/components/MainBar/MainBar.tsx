@@ -158,7 +158,9 @@ export default function MainBar(){
                             <Image src="https://picsum.photos/230/97" alt="Logo" className="logo"/>
                         </a>
                     </h1>
-                    <Image src="https://picsum.photos/728/90" alt="Sponsor" className="sponsor"/>
+                    <a className="link-activity sponsor" href="#" title='Orlando Weekly activity' >
+                        <Image src="https://picsum.photos/728/90" alt="Orlando Weekly activity" className="sponsor"/>
+                    </a>
                     <SearchButtonPopUp searchDropdown={searchDropdown}/>
                 </div>
                 <FullNavbar elements={elements} specialElements={specialElements} specialDropdown={specialDropdown} searchDropdown={searchDropdown}/>

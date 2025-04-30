@@ -3,7 +3,7 @@
     height: fit-content;
     box-sizing: border-box;
     background-color: white;
-    position: absolute;
+    position: sticky;
     right: 0;
 }
 

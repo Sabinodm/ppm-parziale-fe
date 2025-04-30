@@ -1,0 +1,7 @@
+.icon-promo {
+    width: 100%;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+}
