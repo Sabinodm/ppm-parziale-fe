@@ -1,6 +1,6 @@
 import React from "react";
 import './MinimizedDropdown.css';
-import {DropdownInterface} from "../../interfaces/DropdownInterface";
+import {DropdownInterface} from "../../../../../interfaces/DropdownInterface";
 import MinimizedNavButton from "../MinimizedNavButton/MinimizedNavButton";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faChevronLeft} from "@fortawesome/free-solid-svg-icons";

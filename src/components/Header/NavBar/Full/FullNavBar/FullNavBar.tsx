@@ -2,7 +2,7 @@ import React from "react";
 import './FullNavBar.css';
 import DropDownButton from "../DropDownButton/DropDownButton";
 import FullNavButton from "../FullNavButton/FullNavButton";
-import {DropdownInterface} from "../../interfaces/DropdownInterface";
+import {DropdownInterface} from "../../../../../interfaces/DropdownInterface";
 import SpecialDropDownButton from "../SpecialDropDown/SpecialDropDown";
 import LoginButton from "../LoginButton/LoginButton";
 import SearchDropDownButton from "../SearchDropDownButton/SearchDropDownButton";

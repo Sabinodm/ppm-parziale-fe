@@ -1,6 +1,6 @@
 import React from "react";
 import './SearchDropDownButton.css';
-import {DropdownInterface} from "../../interfaces/DropdownInterface";
+import {DropdownInterface} from "../../../../../interfaces/DropdownInterface";
 import {faSearch} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 interface DropdownParameters {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './SpecialDropDown.css';
-import {DropdownInterface} from "../../interfaces/DropdownInterface";
+import {DropdownInterface} from "../../../../../interfaces/DropdownInterface";
 interface DropdownParameters {
     item: DropdownInterface
 }

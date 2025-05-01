@@ -1,6 +1,6 @@
 import React from "react";
 import './DropDownButton.css';
-import {DropdownInterface} from "../../interfaces/DropdownInterface";
+import {DropdownInterface} from "../../../../../interfaces/DropdownInterface";
 import FullNavButton from "../FullNavButton/FullNavButton";
 interface DropdownParameters {
     item: DropdownInterface

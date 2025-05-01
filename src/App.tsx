@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import PromoTopBar from "./components/PromoTopBar/PromoTopBar";
-import MainBar from "./components/MainBar/MainBar";
+import PromoTopBar from "./components/Header/PromoTopBar/PromoTopBar";
+import MainBar from "./components/Header/MainBar/MainBar";
 import BackgroundPromo from "./components/BackgroundPromo/BackgroundPromo";
 import IconPromo from "./components/IconPromo/IconPromo";
-import HomePage from "./components/HomePage/HomePage";
+import HomePage from "./components/HomePage/HomePage/HomePage";
 
 function App() {
     return (

@@ -1,6 +1,9 @@
 import './Events.css';
 import React from "react";
 import {Image} from "react-bootstrap";
+import {faSearch} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import EventsBox from "../EventBox/EventBox";
 
 
 export default function Events () {
@@ -23,8 +26,17 @@ export default function Events () {
                     <div className="event-footer">
                         <time className="event-date">Sat.,May 3,5-8 p.m.</time>
                     </div>
-
                 </div>
+                <div className="event-bar">
+                    <FontAwesomeIcon icon={faSearch}/>
+                    <a className="event-bar-link" href="#"> All of today's events</a>
+                    <span className="event-bar-span">|</span>
+                    <a className="event-bar-link" href="#">Staff Picks</a>
+                </div>
+                <EventsBox />
+                <a href="#" title='sponsor'  >
+                    <Image src="https://picsum.photos/300/250"  alt="sponsor" />
+                </a>
             </div>
         </div>
     );

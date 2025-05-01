@@ -1,8 +1,8 @@
 import React from "react";
 import './MainBar.css';
 import {Container, Image} from "react-bootstrap";
-import FullNavbar from "../FullNavBar/FullNavBar";
-import MininizedNavBar from "../MinimizedNavBar/MinimizedNavBar";
+import FullNavbar from "../NavBar/Full/FullNavBar/FullNavBar";
+import MininizedNavBar from "../NavBar/Minimized/MinimizedNavBar/MinimizedNavBar";
 import SearchButtonPopUp from "../SearchButtonPopUp/SearchButtonPopUp";
 
 export default function MainBar(){
