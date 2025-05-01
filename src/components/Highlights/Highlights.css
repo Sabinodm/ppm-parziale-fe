@@ -1,0 +1,245 @@
+.highlights-container {
+    position: relative;
+    max-width: 100%;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+}
+
+/*first-highlights*/
+
+.first-highlights-wrapper {
+    margin: 20px 0px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+.first-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+    margin-left: -9px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.article-image-link {
+    margin-bottom: 6px;
+    display: block;
+}
+
+.article-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    aspect-ratio: auto 1280 / 800;
+    vertical-align: middle;
+}
+
+.article-title{
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.link-article {
+    width: 100%;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color: #000;
+    text-transform: none;
+    margin-top: 0;
+    margin-bottom: 6px;
+    text-decoration: none;
+    display: block;
+}
+
+.article-description {
+    margin-top: 0px;
+}
+
+.article-footer {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative !important;
+    overflow: hidden;
+}
+
+.article-author {
+    display: inline-block !important;
+    position: relative !important;
+    padding-left: 1.5ch;
+    margin-left: -1.5ch;
+    margin-right: 0.75ch;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.article-date {
+    display: inline-block !important;
+    position: relative !important;
+    padding-left: 1.5ch;
+    margin-left: -0.75ch;
+    margin-right: 1.5ch;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*bottom-highlights*/
+
+.bottom-highlights-container {
+    margin-top: 20px;
+
+}
+
+.bottom-highlights-wrapper {
+    margin-left: -9px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+.bottom-highlights {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 9px;
+
+}
+
+.bottom-article-title{
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.bottom-link-article {
+    width: 100%;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color: #000;
+    text-transform: none;
+    margin-top: 0;
+    margin-bottom: 6px;
+    text-decoration: none;
+    display: block;
+}
+
+.bottom-article-footer {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative !important;
+    overflow: hidden;
+}
+
+
+.link-article:hover .bottom-link-article:hover {
+    color: #f7941E;
+}
+
+@media (min-width: 400px) {
+    .article-image-link {
+        margin-bottom: 7px;
+    }
+
+    .link-article {
+        font-size: 1.91rem;
+        line-height: 1.15em;
+    }
+
+    .bottom-link-article  {
+        font-size: 1.15rem;
+        line-height: 1.15em;
+    }
+
+    .article-title {
+        margin-bottom: 7px;
+    }
+
+    .bottom-article-title {
+        margin-bottom: 9px;
+    }
+
+    .article-description {
+        font-size: 14.325px;
+        line-height: 1.2415;
+        margin-bottom: 7px;
+    }
+
+    .article-footer {
+        font-size: 15.28px;
+        line-height: 1.2415;
+        margin-bottom: 7px;
+    }
+
+    .bottom-article-footer {
+        font-size: 13.37px;
+        line-height: 1.19375;
+        margin-bottom: 9px;
+    }
+}
+
+@media (min-width: 640px) {
+    .article-image-link {
+        margin-bottom: 8px;
+    }
+
+    .link-article {
+        font-size: 2rem;
+        line-height: 1.15em;
+    }
+
+    .bottom-link-article  {
+        font-size: 1.15rem;
+        line-height: 1.15em;
+    }
+
+    .article-title  {
+        margin-bottom: 8px;
+    }
+
+    .bottom-article-title {
+        margin-bottom: 10px;
+    }
+
+    .article-description {
+        font-size: 15px;
+        line-height: 1.3;
+        margin-bottom: 8px;
+    }
+
+    .article-footer {
+        font-size: 16px;
+        line-height: 1.3;
+        margin-bottom: 8px;
+    }
+
+    .bottom-highlights {
+        width: 50%;
+    }
+
+    .bottom-article-footer {
+        font-size: 14px;
+        line-height: 1.25;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 998px) {
+    .highlights-container {
+        padding-left: 0px;
+        padding-right: 9px;
+        width: calc(100% * 2 / 3.001);
+    }
+
+    .bottom-highlights {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .first-highlights {
+        margin-left: -27px;
+    }
+}

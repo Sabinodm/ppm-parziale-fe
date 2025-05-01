@@ -4,6 +4,7 @@ import PromoTopBar from "./components/PromoTopBar/PromoTopBar";
 import MainBar from "./components/MainBar/MainBar";
 import BackgroundPromo from "./components/BackgroundPromo/BackgroundPromo";
 import IconPromo from "./components/IconPromo/IconPromo";
+import HomePage from "./components/HomePage/HomePage";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <PromoTopBar/>
             <MainBar/>
             <IconPromo/>
+            <HomePage/>
         </div>
     );
 }
