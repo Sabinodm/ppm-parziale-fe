@@ -135,9 +135,14 @@
 }
 
 
-.link-article:hover .bottom-link-article:hover {
+.link-article:hover {
     color: #f7941E;
 }
+
+.bottom-link-article:hover {
+    color: #f7941E;
+}
+
 
 @media (min-width: 400px) {
     .article-image-link {

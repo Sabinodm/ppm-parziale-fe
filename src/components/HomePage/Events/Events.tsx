@@ -34,7 +34,7 @@ export default function Events () {
                     <a className="event-bar-link" href="#">Staff Picks</a>
                 </div>
                 <EventsBox />
-                <a href="#" title='sponsor'  >
+                <a href="#" title='sponsor'>
                     <Image src="https://picsum.photos/300/250"  alt="sponsor" />
                 </a>
             </div>

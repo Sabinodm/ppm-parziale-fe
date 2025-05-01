@@ -28,7 +28,7 @@
         width: 998px;
     }
     .home-wrapper {
-        flex-direction: row;
+        flex-direction: column;
     }
 }
 

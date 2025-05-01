@@ -3,12 +3,14 @@
     max-width: 100%;
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 @media (min-width: 998px) {
     .top-section {
         padding: 9px 0px;
+        flex-direction: row;
+
     }
 }

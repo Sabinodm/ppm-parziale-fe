@@ -1,0 +1,25 @@
+.card-container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 9px;
+    height: 315px;
+}
+
+@media (min-width: 400px) {
+    .card-container {
+        width: 50%;
+    }
+}
+
+@media (min-width: 640px) {
+    .card-container {
+        width: 50%;
+    }
+}
+
+@media (min-width: 998px) {
+    .card-container {
+        width: 25%;
+    }
+}
