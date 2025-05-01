@@ -15,7 +15,7 @@ export default function Events () {
                         <a className="event-banner-link" href="#">Events</a>
                     </h1>
                     <a className="event-image-link" href="#" title='photo related to the article'  >
-                        <Image src="https://picsum.photos/654/528"  className="event-image" alt="Event image" />
+                        <Image src="https://picsum.photos/654/371"  className="event-image" alt="Event image" />
                     </a>
                     <h2 className="event-title">
                         <a className="event-link" href="#" >Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
