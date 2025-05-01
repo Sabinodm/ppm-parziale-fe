@@ -11,8 +11,9 @@
 }
 
 .home-wrapper {
-    width: 100%;
     padding: 0px 9px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -25,6 +26,9 @@
 @media (min-width: 998px) {
     .home-container {
         width: 998px;
+    }
+    .home-wrapper {
+        flex-direction: row;
     }
 }
 

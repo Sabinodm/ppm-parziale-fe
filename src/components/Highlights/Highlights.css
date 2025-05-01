@@ -4,12 +4,13 @@
     vertical-align: middle;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 /*first-highlights*/
 
 .first-highlights-wrapper {
-    margin: 20px 0px;
+    margin: 20px 0;
     font-family: Lato, Helvetica, Arial, sans-serif;
 }
 
@@ -40,7 +41,7 @@
 .article-title{
     text-decoration: none;
     cursor: pointer;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .link-article {
@@ -55,7 +56,7 @@
 }
 
 .article-description {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .article-footer {
@@ -112,7 +113,7 @@
 .bottom-article-title{
     text-decoration: none;
     cursor: pointer;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .bottom-link-article {
@@ -228,9 +229,8 @@
 
 @media (min-width: 998px) {
     .highlights-container {
-        padding-left: 0px;
+        padding-left: 0;
         padding-right: 9px;
-        width: calc(100% * 2 / 3.001);
     }
 
     .bottom-highlights {
