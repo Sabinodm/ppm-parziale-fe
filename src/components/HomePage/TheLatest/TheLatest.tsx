@@ -4,7 +4,6 @@ import BottomCard from "../BottomCard/BottomCard";
 import {Image} from "react-bootstrap";
 
 
-
 export default function TheLatest () {
     return (
         <div className="latest-container" >
