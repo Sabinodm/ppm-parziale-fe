@@ -2,14 +2,13 @@ import './TheLatest.css';
 import React from "react";
 import BottomCard from "../BottomCard/BottomCard";
 import {Image} from "react-bootstrap";
+import TitleBanner from "../TitleBanner/TitleBanner";
 
 
 export default function TheLatest () {
     return (
         <div className="latest-container" >
-            <h1 className="event-banner">
-                <a className="event-banner-link" href="#">The Latest</a>
-            </h1>
+            <TitleBanner title="the latest" link="#"/>
             <div className="card-wrapper">
                 <BottomCard/>
                 <BottomCard/>

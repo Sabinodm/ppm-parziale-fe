@@ -1,9 +1,9 @@
 import './HomePage.css';
 import React from "react";
 import TopSection from "../TopSection/TopSection";
-import Events from "../Events/Events";
 import TheLatest from "../TheLatest/TheLatest";
 import HorizontalSponsor from "../../HorizontalSponsor/HorizontalSponsor";
+import MiddleSection from "../MiddleSection/MiddleSection";
 
 export default function HomePage () {
     return (
@@ -12,6 +12,7 @@ export default function HomePage () {
                 <TopSection/>
                 <TheLatest/>
                 <HorizontalSponsor/>
+                <MiddleSection/>
             </div>
         </div>
     );

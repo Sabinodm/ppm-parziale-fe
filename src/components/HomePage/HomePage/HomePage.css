@@ -8,12 +8,13 @@
     margin: auto;
     background-color: #fff;
     z-index: 1;
+    padding: 0px 9px;
 }
 
 .home-wrapper {
-    padding: 0px 9px;
     display: flex;
     flex-direction: column;
+    max-width: 100%;
 }
 
 
@@ -29,6 +30,7 @@
     }
     .home-wrapper {
         flex-direction: column;
+        padding: 0px 9px;
     }
 }
 

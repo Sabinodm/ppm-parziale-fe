@@ -3,5 +3,8 @@
     max-width: 100%;
     display: flex;
     justify-content: center;
+}
 
+.sponsor-image {
+    width: 100%;
 }

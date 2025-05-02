@@ -16,19 +16,18 @@ export default function SearchDropDownButton ({item} : DropdownParameters) {
                 </div>
                 <div className="wrapper special-wrapper">
                     <ul className="dropdown-menu">
-                            <div className="search-box">
-                                <div className="search-input-box">
-                                    <span className="search-icon">
-                                        <FontAwesomeIcon icon={faSearch} className="icon" />
-                                    </span>
-
-                                    <input type="text" className="search-input" placeholder="Enter Keywords..." />
-                                </div>
-                                </div>
-                                {item.values.slice(0, -1).map((value: any, index: number) => (
-                                    <a className="dropdown-item search-item" href={value.link}>{value.name}</a>
-                                ))}
-                                <a className="dropdown-item special-last search-item" href={item.values[item.values.length - 1].link}> {item.values[item.values.length - 1].name}</a>
+                        <div className="search-box">
+                            <div className="search-input-box">
+                                <span className="search-icon">
+                                    <FontAwesomeIcon icon={faSearch} className="icon" />
+                                </span>
+                                <input type="text" className="search-input" placeholder="Enter Keywords..." />
+                            </div>
+                        </div>
+                        {item.values.slice(0, -1).map((value: any, index: number) => (
+                            <a className="dropdown-item search-item" href={value.link}>{value.name}</a>
+                        ))}
+                        <a className="dropdown-item special-last search-item" href={item.values[item.values.length - 1].link}> {item.values[item.values.length - 1].name}</a>
                     </ul>
                 </div>
         </div>

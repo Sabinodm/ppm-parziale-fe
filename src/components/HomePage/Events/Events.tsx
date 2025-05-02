@@ -4,6 +4,7 @@ import {Image} from "react-bootstrap";
 import {faSearch} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import EventsBox from "../EventBox/EventBox";
+import TitleBanner from "../TitleBanner/TitleBanner";
 
 
 export default function Events () {
@@ -11,9 +12,7 @@ export default function Events () {
         <div className="events-container" >
             <div className="events-wrapper">
                 <div className="events-header">
-                    <h1 className="event-banner">
-                        <a className="event-banner-link" href="#">Events</a>
-                    </h1>
+                    <TitleBanner title="Events" link="#"/>
                     <a className="event-image-link" href="#" title='photo related to the article'  >
                         <Image src="https://picsum.photos/654/371"  className="event-image" alt="Event image" />
                     </a>
