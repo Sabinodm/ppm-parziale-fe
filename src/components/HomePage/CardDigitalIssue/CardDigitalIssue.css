@@ -1,0 +1,51 @@
+.digitalIssue-wrapper {
+    margin-left: 0;
+}
+
+.digitalIssue-container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.digitalIssue-date {
+    width: 100%;
+    font-size: 16px;
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-button {
+    position: relative;
+    width: 50px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-item {
+    Width: 50%;
+}
+
+.digitalIssue-card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 0;
+}
+
+@media (min-width: 998px) {
+    .digitalIssue-wrapper {
+        margin-left: 10px;
+    }
+}

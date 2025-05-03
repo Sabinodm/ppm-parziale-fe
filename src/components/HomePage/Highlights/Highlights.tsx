@@ -10,9 +10,9 @@ export default function Highlights () {
                     <a className="article-image-link" href="#" title='photo related to the article'  >
                         <Image src="https://picsum.photos/1280/800" alt="photo related to the article" className="article-image" />
                     </a>
-                    <h2 className="article-title">
+                    <h3 className="article-title">
                         <a className="link-article" href="#" >Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
-                    </h2>
+                    </h3>
                     <p className="article-description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
@@ -27,9 +27,9 @@ export default function Highlights () {
                         <a className="article-image-link" href="#" title='photo related to the article'  >
                             <Image src="https://picsum.photos/1280/800" alt="photo related to the article" className="article-image" />
                         </a>
-                        <h2 className="bottom-article-title">
+                        <h3 className="bottom-article-title">
                             <a className="bottom-link-article" href="#" >Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
-                        </h2>
+                        </h3>
                         <p className="article-description">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -41,9 +41,9 @@ export default function Highlights () {
                         <a className="article-image-link" href="#" title='photo related to the article'  >
                             <Image src="https://picsum.photos/1280/800" alt="photo related to the article" className="article-image" />
                         </a>
-                        <h2 className="bottom-article-title">
+                        <h3 className="bottom-article-title">
                             <a className="bottom-link-article" href="#" >Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
-                        </h2>
+                        </h3>
                         <p className="article-description">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>

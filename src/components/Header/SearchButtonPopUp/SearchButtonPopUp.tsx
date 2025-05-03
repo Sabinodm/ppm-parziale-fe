@@ -30,7 +30,7 @@ export default function SearchButtonPopUp ({searchDropdown} : any) {
             <div onClick={togglePopUp} className="popUp-background" id="popUp">
                 <div className="popUp" onClick={(e) => e.stopPropagation()} >
                         <div className="header-wrapper-popUp">
-                            <h2 className="popUp-search-header">Search</h2>
+                            <h3 className="popUp-search-header">Search</h3>
                             <i className="close-button" onClick={togglePopUp}>
                                 <FontAwesomeIcon icon={faX}/>
                             </i>

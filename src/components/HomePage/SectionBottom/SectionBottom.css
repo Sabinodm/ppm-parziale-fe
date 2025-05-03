@@ -1,11 +1,20 @@
-.bottom-section {
+.bottom-section-wrapper {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.section-bottom {
+    width: 100%;
+
 }
 
 @media (min-width: 998px) {
-    .bottom-section {
+    .bottom-section-wrapper {
         flex-direction: row;
     }
 
+    .section-bottom {
+        width: 50%;
+    }
 }
