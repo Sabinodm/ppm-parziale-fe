@@ -10,7 +10,7 @@ export default function CardOrlandoGuides () {
     return (
         <div className="guides-wrapper" >
             <TitleBanner title="orlando guides" link="#"/>
-            <div className="gudes-container" >
+            <div className="guides-container" >
                 <a className="guides-image-link" href="#" title='photo related to the article'  >
                     <Image src="https://picsum.photos/350/127" alt="photo related to the guide" className="bestOf-image" />
                     <span className="guides-text">

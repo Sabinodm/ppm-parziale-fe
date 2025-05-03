@@ -1,0 +1,83 @@
+.journalism-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    border: solid 16px #e3e3e3;
+    border-radius: 22px;
+    padding: 32px;
+    max-width: 825pt;
+}
+
+.journalism-section {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 24px;
+    margin-bottom: 20px;
+}
+
+.journalism-logo {
+    cursor: pointer;
+    width: 50%;
+}
+
+.journalism-text {
+    max-width: 40%;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+}
+
+.journalism-signUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    text-space: 16px;
+    color: #ffffff;
+    padding: 16px 24px;
+    height: fit-content;
+    border-radius: 3px ;
+    cursor: pointer;
+    background-color: #5d72c0;
+    border: none;
+    margin: 15px 0;
+}
+
+.journal-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media (min-width: 480px) {
+    .journalism-text {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 640px) {
+    .journalism-text {
+        font-size: 18px;
+    }
+    .journalism-logo {
+        width: 30%;
+    }
+}
+
+@media (min-width: 998px) {
+    .journalism-text {
+        font-size: 24px;
+    }
+}
+
