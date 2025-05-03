@@ -22,6 +22,14 @@
     align-items: flex-end;
 }
 
+.guides-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
 .guides-text {
     background: #6e6f71;
     padding: 8px;
@@ -32,6 +40,10 @@
     text-decoration: none;
     position: absolute;
     margin: 18px;
+}
+
+.guides-image:hover {
+    filter: brightness(200%);
 }
 
 @media (min-width: 640px) {
