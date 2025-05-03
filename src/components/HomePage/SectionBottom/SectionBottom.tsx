@@ -2,6 +2,7 @@ import './SectionBottom.css';
 import React from "react";
 import CardBestOfOrlando from "../CardBestOfOrlando/CardBestOfOrlando";
 import CardDigitalIssue from "../CardDigitalIssue/CardDigitalIssue";
+import CardOrlandoGuides from "../CardOrlandoGuides/CardOrlandoGuides";
 
 export default function SectionBottom () {
 
@@ -14,7 +15,7 @@ export default function SectionBottom () {
                 <CardDigitalIssue/>
             </div>
             <div className="section-bottom">
-
+                <CardOrlandoGuides/>
             </div>
         </div>
     );

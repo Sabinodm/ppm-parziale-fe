@@ -1,0 +1,41 @@
+.guides-wrapper {
+    padding-right: 0;
+}
+
+.guides-container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 5px;
+    padding-top: 4px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.guides-image-link {
+    width: 46%;
+    padding: 9px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.guides-text {
+    background: #6e6f71;
+    padding: 8px;
+    font-size: 9px;
+    box-shadow: 3px 3px 0 #f7941E;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: absolute;
+    margin: 18px;
+}
+
+@media (min-width: 640px) {
+    .guides-wrapper {
+        padding-right: 10px;
+    }
+}
