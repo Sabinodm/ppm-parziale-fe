@@ -9,6 +9,7 @@ import SectionTrendingSlideshow from "../SectionTrendingSlideshow/SectionTrendin
 import SectionBottom from "../SectionBottom/SectionBottom";
 import SectionJournalismPromo from "../SectionJournalismPromo/SectionJournalismPromo";
 import SectionAroundTheWeb from "../SectionAroundTheWeb/SectionAroundTheWeb";
+import SectionFooter from "../SectionFooter/SectionFooter";
 
 export default function HomePage () {
     return (
@@ -24,6 +25,7 @@ export default function HomePage () {
                 <SectionBottom/>
                 <SectionJournalismPromo/>
                 <SectionAroundTheWeb/>
+                <SectionFooter/>
             </div>
         </div>
     );

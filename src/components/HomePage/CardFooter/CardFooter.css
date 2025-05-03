@@ -1,0 +1,43 @@
+.footer-row {
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.title {
+    margin: 0;
+}
+
+.footer-title-link {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 700;
+    font-family: Lato, Helvetica, Arial, sans-serif
+}
+
+.footer-link-list {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-list-element {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-link {
+    font-size: .8rem;
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1.1;
+}
+
+.footer-title-link:hover {
+    color: #f7941E;
+}
+
+.footer-link:hover {
+    color: #f7941E;
+}
