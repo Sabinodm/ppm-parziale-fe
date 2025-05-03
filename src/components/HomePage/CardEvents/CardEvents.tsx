@@ -1,13 +1,13 @@
-import './Events.css';
+import './CardEvents.css';
 import React from "react";
 import {Image} from "react-bootstrap";
 import {faSearch} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import EventsBox from "../EventBox/EventBox";
+import EventsBox from "../CardEventBox/CardEventBox";
 import TitleBanner from "../TitleBanner/TitleBanner";
 
 
-export default function Events () {
+export default function CardEvents () {
     return (
         <div className="events-container" >
             <div className="events-wrapper">

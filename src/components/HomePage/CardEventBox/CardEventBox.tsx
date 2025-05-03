@@ -1,4 +1,4 @@
-import './EventBox.css';
+import './CardEventBox.css';
 import React, {useState} from "react";
 import {Button} from "react-bootstrap";
 

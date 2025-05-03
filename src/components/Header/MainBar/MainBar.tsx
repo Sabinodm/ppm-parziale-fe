@@ -122,7 +122,7 @@ export default function MainBar(){
             values: [
                 {name:'in Article & Posts', link:'#'},
                 {name:'in Slideshows', link:'#'},
-                {name:'in Events', link:'#'},
+                {name:'in CardEvents', link:'#'},
                 {name:'in Locations', link:'#'},
                 {name:'All', link:'#'}],
         }

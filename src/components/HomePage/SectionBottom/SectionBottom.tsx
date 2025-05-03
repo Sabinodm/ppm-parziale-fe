@@ -1,12 +1,13 @@
 import './SectionBottom.css';
 import React from "react";
+import CardBestOfOrlando from "../CardBestOfOrlando/CardBestOfOrlando";
 
-export default function MiddleSection () {
+export default function SectionBottom () {
+
     return (
-        <div className="middle-section">
-            <div className="section">
+        <div className="bottom-section">
 
-            </div>
+                <CardBestOfOrlando/>
             <div className="section">
 
             </div>

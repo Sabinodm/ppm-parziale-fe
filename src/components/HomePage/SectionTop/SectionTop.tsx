@@ -1,13 +1,13 @@
 import './SectionTop.css';
 import React from "react";
 import Highlights from "../Highlights/Highlights";
-import Events from "../Events/Events";
+import CardEvents from "../CardEvents/CardEvents";
 
 export default function SectionTop () {
     return (
         <div className="top-section">
             <Highlights/>
-            <Events/>
+            <CardEvents/>
         </div>
     );
 }

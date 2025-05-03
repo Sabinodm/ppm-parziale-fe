@@ -6,6 +6,7 @@ import HorizontalSponsor from "../../HorizontalSponsor/HorizontalSponsor";
 import SectionMiddle from "../SectionMiddle/SectionMiddle";
 import SectionTrending from "../SectionTrending/SectionTrending";
 import SectionTrendingSlideshow from "../SectionTrendingSlideshow/SectionTrendingSlideshow";
+import SectionBottom from "../SectionBottom/SectionBottom";
 
 export default function HomePage () {
     return (
@@ -18,6 +19,7 @@ export default function HomePage () {
                 <SectionTrending/>
                 <HorizontalSponsor/>
                 <SectionTrendingSlideshow/>
+                <SectionBottom/>
             </div>
         </div>
     );

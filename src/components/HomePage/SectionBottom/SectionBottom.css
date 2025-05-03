@@ -1,1 +1,11 @@
-.BottomSection {}
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 998px) {
+    .bottom-section {
+        flex-direction: row;
+    }
+
+}
