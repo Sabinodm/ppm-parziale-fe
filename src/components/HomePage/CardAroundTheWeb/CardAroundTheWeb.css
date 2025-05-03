@@ -1,0 +1,63 @@
+.aroundTheWeb-card-container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 9px;
+    margin-bottom: 9px;
+}
+
+.aroundTheWeb-link-article {
+    width: 100%;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    color: #000;
+    text-transform: none;
+    margin-top: 0;
+    margin-bottom: 6px;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.aroundTheWeb-footer {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative !important;
+    overflow: hidden;
+    align-items: center;
+    text-decoration: none;
+}
+
+.aroundTheWeb-author {
+    font-family: "Roboto", Arial, sans-serif;
+    color: #000;
+    text-transform: none;
+    margin-top: 0;
+    margin-bottom: 6px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.aroundTheWeb-link-article:hover {
+    color: #5d72c0;
+}
+
+@media (min-width: 400px) {
+    .aroundTheWeb-card-container {
+        width: 25%;
+    }
+}
+
+@media (min-width: 640px) {
+    .aroundTheWeb-card-container {
+        width: 25%;
+    }
+}
+
+@media (min-width: 998px) {
+    .aroundTheWeb-card-container {
+        width: 25%;
+    }
+}

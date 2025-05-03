@@ -1,6 +1,5 @@
 import './SectionTrendingSlideshow.css';
 import React from "react";
-import CardTextUnder from "../CardTextUnder/CardTextUnder";
 import TitleBanner from "../TitleBanner/TitleBanner";
 import CardTrendingSlideshow from "../CardTrendingSlideshow/CardTrendingSlideshow";
 

@@ -7,7 +7,8 @@ import SectionMiddle from "../SectionMiddle/SectionMiddle";
 import SectionTrending from "../SectionTrending/SectionTrending";
 import SectionTrendingSlideshow from "../SectionTrendingSlideshow/SectionTrendingSlideshow";
 import SectionBottom from "../SectionBottom/SectionBottom";
-import CardJournalismPromo from "../CardJournalismpromo/CardJournalismpromo";
+import SectionJournalismPromo from "../SectionJournalismPromo/SectionJournalismPromo";
+import SectionAroundTheWeb from "../SectionAroundTheWeb/SectionAroundTheWeb";
 
 export default function HomePage () {
     return (
@@ -21,7 +22,8 @@ export default function HomePage () {
                 <HorizontalSponsor/>
                 <SectionTrendingSlideshow/>
                 <SectionBottom/>
-                <CardJournalismPromo/>
+                <SectionJournalismPromo/>
+                <SectionAroundTheWeb/>
             </div>
         </div>
     );
