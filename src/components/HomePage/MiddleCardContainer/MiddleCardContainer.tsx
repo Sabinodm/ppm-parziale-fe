@@ -1,6 +1,6 @@
 import './MiddleCardContainer.css';
 import React from "react";
-import HorizontalCard from "../HorizontalCard/HorizontalCard";
+import CardTextSide from "../CardTextSide/CardTextSide";
 import TitleBanner from "../TitleBanner/TitleBanner";
 import {faAngleRight} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -10,8 +10,8 @@ export default function MiddleCardContainer ({ title, link, footer1, fLink1, foo
         <div className="card-section">
             <TitleBanner title={title} link={link}/>
             <div className="horizontal-card-wrapper">
-                <HorizontalCard/>
-                <HorizontalCard/>
+                <CardTextSide/>
+                <CardTextSide/>
             </div>
             <div className="horizontal-card-button">
                 <a className="horizontal-card-button-link" href={link} title="card button" >

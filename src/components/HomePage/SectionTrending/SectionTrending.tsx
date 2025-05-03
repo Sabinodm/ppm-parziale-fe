@@ -1,18 +1,18 @@
-import './Trending.css';
+import './SectionTrending.css';
 import React from "react";
 import TitleBanner from "../TitleBanner/TitleBanner";
-import TrendingCard from "../TrendingCard/TrendingCard";
+import CardTrending from "../CardTrending/CardTrending";
 
 
-export default function Trending () {
+export default function SectionTrending () {
     return (
         <div className="latest-container" >
             <TitleBanner title="trending" link="#"/>
             <div className="card-wrapper">
-                <TrendingCard/>
-                <TrendingCard/>
-                <TrendingCard/>
-                <TrendingCard/>
+                <CardTrending/>
+                <CardTrending/>
+                <CardTrending/>
+                <CardTrending/>
             </div>
         </div>
     );

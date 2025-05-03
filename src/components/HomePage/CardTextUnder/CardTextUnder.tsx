@@ -1,8 +1,8 @@
-import './TrendingCard.css';
+import './CardTextUnder.css';
 import React from "react";
 import {Image} from "react-bootstrap";
 
-export default function TrendingCard () {
+export default function CardTextUnder () {
     return (
         <div className="card-container" >
             <div className="news-card">
@@ -12,9 +12,8 @@ export default function TrendingCard () {
                 <h2 className="bottom-article-title">
                     <a className="bottom-link-article" href="#" >Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
                 </h2>
-                <div className="trending-article-footer">
-                    <span className="trending-article-author">By Lorem Ipsum</span>
-                    <time className="trending-article-date">Apr 30,2025</time>
+                <div className="bottom-article-footer">
+                    <span className="article-author">By Lorem Ipsum</span>|<time className="article-date">Apr 30,2025</time>
                 </div>
             </div>
         </div>

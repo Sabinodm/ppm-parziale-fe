@@ -1,8 +1,8 @@
-import './BottomCard.css';
+import './CardTrendingSlideshow.css';
 import React from "react";
 import {Image} from "react-bootstrap";
 
-export default function BottomCard () {
+export default function CardTrendingSlideshow () {
     return (
         <div className="card-container" >
             <div className="news-card">
@@ -10,11 +10,8 @@ export default function BottomCard () {
                     <Image src="https://picsum.photos/600/371" alt="photo related to the article" className="article-image" />
                 </a>
                 <h2 className="bottom-article-title">
-                    <a className="bottom-link-article" href="#" >Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    <a className="bottom-link-article tren-slid" href="#" >Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
                 </h2>
-                <div className="bottom-article-footer">
-                    <span className="article-author">By Lorem Ipsum</span>|<time className="article-date">Apr 30,2025</time>
-                </div>
             </div>
         </div>
     );

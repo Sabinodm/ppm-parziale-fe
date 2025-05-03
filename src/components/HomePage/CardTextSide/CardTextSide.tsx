@@ -1,8 +1,8 @@
-import './HorizontalCard.css';
+import './CardTextSide.css';
 import React from "react";
 import {Image} from "react-bootstrap";
 
-export default function HorizontalCard () {
+export default function CardTextSide () {
     return (
         <div className="horizontal-card-container" >
             <div className="horizontal-news-card">

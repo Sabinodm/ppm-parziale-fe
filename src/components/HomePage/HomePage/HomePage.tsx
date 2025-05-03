@@ -1,23 +1,23 @@
 import './HomePage.css';
 import React from "react";
-import TopSection from "../TopSection/TopSection";
-import TheLatest from "../TheLatest/TheLatest";
+import SectionTop from "../SectionTop/SectionTop";
+import SectionTheLatest from "../SectionTheLatest/SectionTheLatest";
 import HorizontalSponsor from "../../HorizontalSponsor/HorizontalSponsor";
-import MiddleSection from "../MiddleSection/MiddleSection";
-import Trending from "../Trending/Trending";
-import TrendingSlideshow from "../TrendingSlideshow/TrendingSlideshow";
+import SectionMiddle from "../SectionMiddle/SectionMiddle";
+import SectionTrending from "../SectionTrending/SectionTrending";
+import SectionTrendingSlideshow from "../SectionTrendingSlideshow/SectionTrendingSlideshow";
 
 export default function HomePage () {
     return (
         <div className="home-container" >
             <div className="home-wrapper">
-                <TopSection/>
-                <TheLatest/>
+                <SectionTop/>
+                <SectionTheLatest/>
                 <HorizontalSponsor/>
-                <MiddleSection/>
-                <Trending/>
+                <SectionMiddle/>
+                <SectionTrending/>
                 <HorizontalSponsor/>
-                <TrendingSlideshow/>
+                <SectionTrendingSlideshow/>
             </div>
         </div>
     );

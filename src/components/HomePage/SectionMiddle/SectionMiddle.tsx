@@ -1,9 +1,9 @@
-import './MiddleSection.css';
+import './SectionMiddle.css';
 import React from "react";
 import MiddleCardContainer from "../MiddleCardContainer/MiddleCardContainer";
 import {Image} from "react-bootstrap";
 
-export default function MiddleSection () {
+export default function SectionMiddle () {
     return (
         <div className="middle-section">
             <div className="section">
