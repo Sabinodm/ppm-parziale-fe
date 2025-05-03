@@ -1,5 +1,6 @@
 .middle-section {
     display: flex;
+    flex-direction: column;
 }
 
 .section {
@@ -22,12 +23,20 @@
 }
 
 .middle-promo-image {
-    width: 100%;
+    width: 50%;
     aspect-ratio: auto 300 / 600;
 }
 
 @media (min-width: 998px) {
+    .middle-section {
+        flex-direction: row;
+    }
+
     .section {
         width: calc(100% * 1 / 3.001);
+    }
+
+    .middle-promo-image {
+        width: 100%;
     }
 }
