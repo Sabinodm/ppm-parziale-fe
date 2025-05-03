@@ -187,15 +187,19 @@ const footer = [
 
 export default function SectionFooter () {
     return (
-        <div className="footer-section">
-            {footer.map((row: any) => (
-                <div className="row-container">
-                    {row.section.map((item: any) => (
-                        <CardFooter row={item}/>
-                    ))}
-                </div>
-            ))}
+        <div className="section-footer">
+            <div className="footer-wrapper">
+                {footer.map((row: any) => (
+                    <div className="row-container">
+                        {row.section.map((item: any) => (
+                            <CardFooter row={item}/>
+                        ))}
+                    </div>
+                ))}
+            </div>
+            <div className="copyright-container" >
+                <p className="copyright">© 2025 Lorem Ipsum.</p>
+            </div>
         </div>
-
     );
 }

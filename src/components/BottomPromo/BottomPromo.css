@@ -1,0 +1,11 @@
+.bottom-promo {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    margin: -10px 0;
+    background: rgba(138, 138, 138, 0.1);
+}
