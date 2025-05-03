@@ -57,6 +57,7 @@
 
 .article-description {
     margin-top: 0;
+    font-family: Lato, Helvetica, Arial, sans-serif;
 }
 
 .article-footer {
@@ -67,6 +68,7 @@
 }
 
 .article-author {
+    font-family: Lato, Helvetica, Arial, sans-serif;
     display: inline-block !important;
     position: relative !important;
     padding-left: 1.5ch;
@@ -77,6 +79,7 @@
 }
 
 .article-date {
+    font-family: Lato, Helvetica, Arial, sans-serif;
     display: inline-block !important;
     position: relative !important;
     padding-left: 1.5ch;

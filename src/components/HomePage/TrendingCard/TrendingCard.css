@@ -1,0 +1,43 @@
+.trending-article-footer {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative !important;
+    overflow: hidden;
+}
+
+.trending-article-author {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    display: inline-block !important;
+    position: relative !important;
+    padding-left: 1.5ch;
+    margin-left: -1.5ch;
+    margin-right: 0.75ch;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px
+}
+
+.trending-article-date {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    display: inline-block !important;
+    position: relative !important;
+    padding-left: 1.5ch;
+    margin-left: -0.75ch;
+    margin-right: 1.5ch;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 11px;
+    align-self: center;
+}
+
+
+
+@media (min-width: 400px) {
+    line-height: 1.19375;
+    margin-bottom: 9px;
+}
+
+@media (min-width: 640px) {
+    line-height: 1.25;
+    margin-bottom: 10px;
+}

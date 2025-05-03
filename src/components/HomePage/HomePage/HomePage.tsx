@@ -5,6 +5,7 @@ import TheLatest from "../TheLatest/TheLatest";
 import HorizontalSponsor from "../../HorizontalSponsor/HorizontalSponsor";
 import MiddleSection from "../MiddleSection/MiddleSection";
 import Trending from "../Trending/Trending";
+import TrendingSlideshow from "../TrendingSlideshow/TrendingSlideshow";
 
 export default function HomePage () {
     return (
@@ -16,6 +17,7 @@ export default function HomePage () {
                 <MiddleSection/>
                 <Trending/>
                 <HorizontalSponsor/>
+                <TrendingSlideshow/>
             </div>
         </div>
     );
