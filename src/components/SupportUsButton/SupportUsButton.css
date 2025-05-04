@@ -1,0 +1,46 @@
+.supportUs-button {
+    position: fixed;
+    bottom: 450px;
+    right: -45px;
+    transform: rotate(-90deg);
+    z-index: 5;
+    animation: popIn 555ms ease 666ms forwards;
+    background-color: #f7941E;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+    transition: 188ms ease-out;;
+}
+
+.supportUs {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 4px 1px 20px 1px;
+}
+
+.supportUs-text {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.3;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    word-spacing: 0.5ch;
+    transition: 188ms ease-out;
+}
+
+
+.supportUs-button:hover {
+    background-color: #333
+}
+
+@media (min-width: 640px) {
+    .supportUs {
+       padding: 10px;
+    }
+
+    .supportUs-text {
+        font-size: 1rem;
+    }
+}
