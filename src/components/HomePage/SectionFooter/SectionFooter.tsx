@@ -1,7 +1,13 @@
 import './SectionFooter.css';
 import React from "react";
-import {DropdownInterface} from "../../../interfaces/DropdownInterface";
 import CardFooter from "../CardFooter/CardFooter";
+import SectionOtherPublication from "../SectionOtherPublication/SectionOtherPublication";
+import {Image} from "react-bootstrap";
+import FacebookLogo from '../../../Image/SocialLogo/FacebookLogo.png';
+import TwitterLogo from '../../../Image/SocialLogo/TwitterLogo.png';
+import InstagramLogo from  '../../../Image/SocialLogo/InstagramLogo.png';
+import AppleNewsLogo from '../../../Image/SocialLogo/AppleNewsLogo.png';
+import GoogleNewsLogo from '../../../Image/SocialLogo/GoogleNewsLogo.png';
 
 const footer = [
     {
@@ -197,8 +203,31 @@ export default function SectionFooter () {
                     </div>
                 ))}
             </div>
+            <SectionOtherPublication/>
+            <div className="footer-info">
+                <h3 className="footer-info-title">Lorem Ipsum</h3>
+                <p className="footer-info-text">Lorem Ipsum.</p>
+                <p className="footer-info-text">Lorem Ipsum</p>
+                <div className="footer-social-links">
+                    <a className="footer-social-link" href="#" title="Facebook">
+                        <Image src={FacebookLogo} alt="Facebook logo" className="footer-social-icon"/>
+                    </a>
+                    <a className="footer-social-link" href="#" title="Twitter">
+                        <img src={TwitterLogo} alt="Twitter logo" className="footer-social-icon"/>
+                    </a>
+                    <a className="footer-social-link" href="#" title="Instagram">
+                        <img src={InstagramLogo} alt="Instagram logo" className="footer-social-icon"/>
+                    </a>
+                    <a className="footer-social-link" href="#" title="Apple News">
+                        <img src={AppleNewsLogo} alt="Apple News logo" className="footer-social-icon"/>
+                    </a>
+                    <a className="footer-social-link" href="#" title="Google News">
+                        <img src={GoogleNewsLogo} alt="Google News logo" className="footer-social-icon"/>
+                    </a>
+                </div>
+            </div>
             <div className="copyright-container" >
-                <p className="copyright">© 2025 Lorem Ipsum.</p>
+                <p className="copyright">© 2025 Lorem Ipsum</p>
             </div>
         </div>
     );
