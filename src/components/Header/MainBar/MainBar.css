@@ -23,13 +23,11 @@
     align-items: center;
     overflow: visible;
     height: 90px;
-
 }
 
 .margin-remove {
     margin: 0 !important;
     padding-bottom: 5px;
-
 }
 
 .link-logo {
@@ -69,4 +67,24 @@
     .header-container {
         box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
     }
+}
+
+@media (max-width: 480px) {
+    .header-wrapper {
+        padding: 0;
+        height: 45px;
+
+    }
+
+    .logo {
+        text-align: left;
+        margin-bottom: 0;
+        width: 35%;
+    }
+
+    .margin-remove {
+        padding-bottom: 0px;
+    }
+
+
 }

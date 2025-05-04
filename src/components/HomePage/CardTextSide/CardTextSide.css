@@ -17,6 +17,7 @@
 .text-side-article-image-link {
     margin-bottom: 6px;
     display: block;
+    width: 100%;
 }
 
 .text-side-article-title {
@@ -35,16 +36,20 @@
     margin-bottom: 6px;
     text-decoration: none;
     display: block;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .text-side-link-article:hover {
     color: #f7941E;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 480px) {
     .text-side-article-image-link {
-        width: 33.7%;
+        width: 80%;
+    }
+
+    .text-side-link-article {
+        font-size: 16px;
     }
 }
 

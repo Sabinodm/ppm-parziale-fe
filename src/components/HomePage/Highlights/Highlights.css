@@ -148,17 +148,20 @@
 
 
 @media (min-width: 400px) {
+    .bottom-highlights {
+        width: 50%;
+    }
     .article-image-link {
         margin-bottom: 7px;
     }
 
     .link-article {
-        font-size: 1.91rem;
+        font-size: 1rem;
         line-height: 1.15em;
     }
 
     .bottom-link-article  {
-        font-size: 1.15rem;
+        font-size: 12px;
         line-height: 1.15em;
     }
 
@@ -171,19 +174,19 @@
     }
 
     .article-description {
-        font-size: 14.325px;
+        font-size: 12px;
         line-height: 1.2415;
         margin-bottom: 7px;
     }
 
     .article-footer {
-        font-size: 15.28px;
+        font-size: 11px;
         line-height: 1.2415;
         margin-bottom: 7px;
     }
 
     .bottom-article-footer {
-        font-size: 13.37px;
+        font-size: 9px;
         line-height: 1.19375;
         margin-bottom: 9px;
     }

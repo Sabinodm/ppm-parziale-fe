@@ -9,7 +9,7 @@
     padding-left: 5px;
     padding-top: 4px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .bestOf-image-link {
@@ -43,11 +43,21 @@
     text-transform: uppercase;
     text-decoration: none;
     display: block;
-    font-size: 24px;
+    font-size: 11px;
 }
 
 .bestOf-link:hover {
     color: #f7941E;
+}
+
+@media (min-width: 480px) {
+    .bestOf-link {
+        font-size: 24px;
+    }
+
+    .bestOf-container {
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 640px) {

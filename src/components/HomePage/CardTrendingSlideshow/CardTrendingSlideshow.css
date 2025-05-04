@@ -1,3 +1,9 @@
 .tren-slid {
-  font-size: 1rem;
+  font-size: 12px;
+}
+
+@media (min-width: 480px) {
+  .tren-slid {
+    font-size: 1rem;
+  }
 }

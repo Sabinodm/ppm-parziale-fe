@@ -16,7 +16,7 @@
     text-decoration: none;
     display: block;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 12px;
 }
 
 .aroundTheWeb-footer {
@@ -36,7 +36,7 @@
     margin-bottom: 6px;
     text-decoration: none;
     display: block;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 400;
 }
 
@@ -47,6 +47,16 @@
 @media (min-width: 400px) {
     .aroundTheWeb-card-container {
         width: 25%;
+    }
+}
+
+@media (min-width: 480px) {
+    .aroundTheWeb-link-article {
+        font-size: 1.1rem;
+    }
+
+    .aroundTheWeb-author {
+        font-size: 14px;
     }
 }
 

@@ -3,9 +3,16 @@
 }
 
 .aroundTheWeb-title {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
-    margin: 25px 0;
+    margin: 18px 0;
     font-family: "Roboto", Arial, sans-serif;
     color: #313A79
+}
+
+@media (min-width: 480px) {
+    .aroundTheWeb-title {
+        font-size: 24px;
+        margin: 25px 0;
+    }
 }

@@ -33,8 +33,8 @@ export default function CardEvents () {
                     <a className="event-bar-link" href="#">Staff Picks</a>
                 </div>
                 <EventsBox />
-                <a href="#" title='sponsor'>
-                    <Image src="https://picsum.photos/300/250"  alt="sponsor" />
+                <a href="#" title='sponsor'  >
+                    <Image src="https://picsum.photos/300/250"  alt="sponsor" className="sponsor-event"/>
                 </a>
             </div>
         </div>

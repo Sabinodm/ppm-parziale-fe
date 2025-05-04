@@ -14,6 +14,7 @@
     height: 1.2em;
     vertical-align: middle;
     color: #000;
+    font-size: 1em;
 }
 
 
@@ -32,7 +33,7 @@
     display: flex;
     background-color: #ffffff;
     position: absolute;
-    width: 260px;
+    width: 115px;
     height: 100vh;
     padding: 9px 5px;
 }
@@ -68,6 +69,18 @@
 
 .minimized-nav-button:hover {
     background-color: #999;
+}
+
+
+
+@media (min-width: 480px) {
+    .bars {
+        font-size: 2em;
+    }
+
+    .side-menu {
+        width: 260px;
+    }
 }
 
 @media (max-width: 998px) {

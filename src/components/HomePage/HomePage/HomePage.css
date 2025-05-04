@@ -10,6 +10,7 @@
     z-index: 1;
     padding: 0px 9px;
     margin-bottom: 30px;
+
 }
 
 .home-wrapper {
@@ -22,6 +23,12 @@
 @media (min-width: 280px) {
     .home-container {
         width: 280px;
+    }
+}
+
+@media (min-width: 480px) {
+    .home-container {
+        width: fit-content;
     }
 }
 

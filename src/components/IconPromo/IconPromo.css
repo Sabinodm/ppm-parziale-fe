@@ -9,4 +9,17 @@
 .link-sponsor {
     position: relative;
     Z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-promo-img {
+    width: 45%;
+}
+
+
+@media (min-width: 480px) {
+    .icon-promo-img {
+        width: 100%;
+    }
 }

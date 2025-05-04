@@ -12,7 +12,7 @@
     max-width: 100%;
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -22,15 +22,16 @@
 
 .journalism-logo {
     cursor: pointer;
-    width: 50%;
+    width: 80%;
 }
 
 .journalism-text {
-    max-width: 40%;
+    max-width: 100%;
     font-family: "Roboto Condensed", sans-serif;
     color: #000;
     text-align: center;
     font-weight: 700;
+    font-size: 11px;
 }
 
 .journalism-signUp {
@@ -39,16 +40,16 @@
     justify-content: center;
     align-items: center;
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 18px;
+    font-size: 13px;
     text-space: 16px;
     color: #ffffff;
-    padding: 16px 24px;
+    padding: 8px 14px;
     height: fit-content;
     border-radius: 3px ;
     cursor: pointer;
     background-color: #5d72c0;
     border: none;
-    margin: 15px 0;
+    margin: 7px 0;
 }
 
 .journal-container {
@@ -63,6 +64,22 @@
 @media (min-width: 480px) {
     .journalism-text {
         font-size: 14px;
+        max-width: 40%;
+    }
+
+    .journalism-section {
+        flex-direction: row;
+    }
+
+    .journalism-signUp {
+        font-size: 18px;
+        padding: 16px 24px;
+        margin: 15px 0;
+    }
+
+    .journalism-logo {
+        cursor: pointer;
+        width: 50%;
     }
 }
 

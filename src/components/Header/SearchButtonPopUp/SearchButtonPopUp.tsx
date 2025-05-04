@@ -19,7 +19,7 @@ export default function SearchButtonPopUp ({searchDropdown} : any) {
     return (
         <>
             <Button onClick={togglePopUp} className="minimized-nav-button">
-                <i className="fas fa-bars fa-2x">
+                <i className="fas fa-bars">
                     <FontAwesomeIcon icon={faSearch} className="bars" />
                 </i>
 

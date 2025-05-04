@@ -13,8 +13,8 @@
     color: #000000;
     background-color: transparent;
     border: none;
-    padding: 6px 5px 4px 5px;
-    font-size: 16px;
+    padding: 4px 5px 2px 5px;
+    font-size: 10px;
     cursor: pointer;
     text-decoration: none;
     font-weight: 700;
@@ -36,4 +36,11 @@
 .side-nav-button:hover {
     color: #fff;
     background-color: #f7941E;
+}
+
+@media (min-width: 480px) {
+    .side-nav-button {
+        font-size: 16px;
+        padding: 6px 5px 4px 5px;
+    }
 }

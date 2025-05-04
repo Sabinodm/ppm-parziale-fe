@@ -19,7 +19,7 @@ export default function MinimizedNavBar ({elements, specialElements, specialDrop
     return (
         <>
         <Button onClick={toggleShow} className="minimized-nav-button">
-            <i className="fas fa-bars fa-2x">
+            <i className="fas fa-bars">
                 <FontAwesomeIcon icon={faBars} className="bars" />
             </i>
         </Button>

@@ -83,7 +83,13 @@
 }
 
 .event-bar-span {
-    padding: 10px;
+    padding: 3px;
+    font-size: 8px;
+    margin-bottom: 6px;
+}
+
+.sponsor-event {
+    max-width: 90%;
 }
 
 .event-link:hover {
@@ -102,6 +108,14 @@
     }
 }
 
+@media (min-width: 480px) {
+
+    .event-bar-span {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
 @media (min-width: 400px) {
     .event-image-link {
         margin-bottom: 7px;
@@ -111,20 +125,24 @@
         margin-bottom: 9px;
     }
     .event-link  {
-        font-size: 1.1rem;
+        font-size: 12px;
         line-height: 1.15em;
     }
 
     .event-description {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 1.2415;
         margin-bottom: 7px;
     }
 
     .event-footer {
-        font-size: 14px;
+        font-size: 11px;
         line-height: 1.19375;
         margin-bottom: 9px;
+    }
+
+    .event-bar-link {
+        font-size: 12px;
     }
 }
 
@@ -151,6 +169,10 @@
         font-size: 14px;
         line-height: 1.25;
         margin-bottom: 10px;
+    }
+
+    .event-bar-link {
+        font-size: 16px;
     }
 
 }

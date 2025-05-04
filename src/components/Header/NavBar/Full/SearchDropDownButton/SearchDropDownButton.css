@@ -21,7 +21,7 @@
 
 .search-icon {
     width: 40px;
-    height: 40px;
+    height: 25px;
     position: absolute;
     top: 0;
     left: 0;
@@ -33,17 +33,16 @@
 }
 
 .icon  {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 
 .search-input {
     padding-left: 40px;
     border: none;
-    font-size: 16px;
+    font-size: 10px;
     color: #999;
     font-family: Lato, Helvetica, Arial, sans-serif;
-
 }
 
 .search-item {
@@ -59,4 +58,20 @@
 
 .special-wrapper {
     justify-content: flex-end;
+}
+
+@media (min-width: 480px) {
+    .search-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .icon  {
+        width: 20px;
+        height: 20px;
+    }
+
+    .search-input {
+        font-size: 16px;
+    }
 }

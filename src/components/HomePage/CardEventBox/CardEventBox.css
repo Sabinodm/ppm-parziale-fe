@@ -6,7 +6,7 @@
 .tab {
     position: relative;
     padding: 6px 12px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     color: #888;
     background: transparent;
@@ -39,4 +39,10 @@
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     border-top: 6px solid #f7941d;
+}
+
+@media (min-width: 480px) {
+    .tab {
+        font-size: 16px;
+    }
 }
