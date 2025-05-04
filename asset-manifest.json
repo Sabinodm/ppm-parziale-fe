@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ppm-parziale-fe/static/css/main.e86d41e7.css",
-    "main.js": "/ppm-parziale-fe/static/js/main.8b9c71e2.js",
+    "main.css": "/ppm-parziale-fe/static/css/main.340e319d.css",
+    "main.js": "/ppm-parziale-fe/static/js/main.be71ec89.js",
     "static/media/Montserrat-VariableFont_wght.ttf": "/ppm-parziale-fe/static/media/Montserrat-VariableFont_wght.4df14eb5e72bf55c4497.ttf",
     "static/media/RobotoCondensed-VariableFont_wght.ttf": "/ppm-parziale-fe/static/media/RobotoCondensed-VariableFont_wght.ff29b2791402495b1616.ttf",
     "static/media/OpenSans-CondBold.ttf": "/ppm-parziale-fe/static/media/OpenSans-CondBold.6293057f8484b6c0da03.ttf",
     "index.html": "/ppm-parziale-fe/index.html",
-    "main.e86d41e7.css.map": "/ppm-parziale-fe/static/css/main.e86d41e7.css.map",
-    "main.8b9c71e2.js.map": "/ppm-parziale-fe/static/js/main.8b9c71e2.js.map"
+    "main.340e319d.css.map": "/ppm-parziale-fe/static/css/main.340e319d.css.map",
+    "main.be71ec89.js.map": "/ppm-parziale-fe/static/js/main.be71ec89.js.map"
   },
   "entrypoints": [
-    "static/css/main.e86d41e7.css",
-    "static/js/main.8b9c71e2.js"
+    "static/css/main.340e319d.css",
+    "static/js/main.be71ec89.js"
   ]
 }
