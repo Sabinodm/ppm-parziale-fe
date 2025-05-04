@@ -1,7 +1,7 @@
 .privacy-button {
     cursor: pointer;
     position: fixed;
-    background-color: #368BD6;
+    background-color: var(--privacy-button);
     padding: 3px 10px;
     display: flex;
     align-items: center;

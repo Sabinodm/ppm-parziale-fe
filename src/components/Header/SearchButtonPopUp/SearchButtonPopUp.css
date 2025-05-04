@@ -42,7 +42,7 @@
     top: 0;
     right: 0;
     cursor: pointer;
-    color: #ccc;
+    color: var(--dark-gray-color);
     border: none;
     font-size: 10px;
     font-weight: 700;
@@ -55,7 +55,7 @@
     width: 100%;
     display: inline-block;
     position: relative;
-    border: 1px solid #ccc;
+    border: 1px solid var(--dark-gray-color);
     height: 25px;
     align-content: center;
     align-items: baseline;
@@ -108,13 +108,13 @@
 }
 
 .popUp-search-item:hover {
-    background-color: #f7941E;
+    background-color: var(--primary-color);
     color: #fff;
 
 }
 
 .go-button:hover {
-    background-color: #f7941E;
+    background-color: var(--primary-color);
 }
 
 .close-button:hover {

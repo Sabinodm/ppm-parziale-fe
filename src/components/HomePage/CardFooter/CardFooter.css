@@ -28,16 +28,16 @@
 
 .footer-link {
     font-size: .8rem;
-    color: #999;
+    color: var(--light-gray-color);
     text-decoration: none;
     cursor: pointer;
     line-height: 1.1;
 }
 
 .footer-title-link:hover {
-    color: #f7941E;
+    color: var(--primary-color);
 }
 
 .footer-link:hover {
-    color: #f7941E;
+    color: var(--primary-color);
 }

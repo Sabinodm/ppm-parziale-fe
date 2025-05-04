@@ -21,7 +21,7 @@ export default function SearchDropDownButton ({item} : DropdownParameters) {
                                 <span className="search-icon">
                                     <FontAwesomeIcon icon={faSearch} className="icon" />
                                 </span>
-                                <input type="text" className="search-input" placeholder="Enter Keywords..." />
+                                <input aria-label="Search input" type="text" className="search-input" placeholder="Enter Keywords..." />
                             </div>
                         </div>
                         {item.values.slice(0, -1).map((value: any, index: number) => (

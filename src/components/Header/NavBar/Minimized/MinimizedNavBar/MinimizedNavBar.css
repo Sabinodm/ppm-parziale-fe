@@ -68,7 +68,7 @@
 }
 
 .minimized-nav-button:hover {
-    background-color: #999;
+    background-color: var(--light-gray-color);
 }
 
 

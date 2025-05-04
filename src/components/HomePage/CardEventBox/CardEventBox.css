@@ -8,7 +8,7 @@
     padding: 6px 12px;
     font-size: 12px;
     font-weight: bold;
-    color: #888;
+    color: var(--gray-color);
     background: transparent;
     cursor: pointer;
     border: none;
@@ -20,12 +20,12 @@
 }
 
 .tab.active {
-    background-color: #f7941d;
+    background-color: var(--primary-color);
     color: white;
 }
 
 .tab:hover {
-    background-color: #f7941d;
+    background-color: var(--primary-color);
     color: white;
 }
 
@@ -38,7 +38,7 @@
     height: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 6px solid #f7941d;
+    border-top: 6px solid var(--primary-color);
 }
 
 @media (min-width: 480px) {

@@ -43,11 +43,11 @@
 
 .side-dropdown-item:hover {
     color: #fff;
-    background-color: #f7941E;
+    background-color: var(--primary-color);
     transition: background-color 0.2s;
 }
 
 .minimized-item.dropdown:hover  .side-nav-button {
-        background-color: #f7941E;
+        background-color: var(--primary-color);
         color: #fff;
     }

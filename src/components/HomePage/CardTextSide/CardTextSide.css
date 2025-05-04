@@ -40,7 +40,7 @@
 }
 
 .text-side-link-article:hover {
-    color: #f7941E;
+    color: var(--primary-color);
 }
 
 @media (min-width: 480px) {

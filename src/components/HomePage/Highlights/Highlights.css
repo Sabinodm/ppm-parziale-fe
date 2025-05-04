@@ -139,11 +139,11 @@
 
 
 .link-article:hover {
-    color: #f7941E;
+    color: var(--primary-color);
 }
 
 .bottom-link-article:hover {
-    color: #f7941E;
+    color: var(--primary-color);
 }
 
 

@@ -5,7 +5,7 @@
     transition: border 0.4s;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #f7941E;
+    border-bottom: 1px solid var(--primary-color);
     align-items: flex-end;
 }
 
@@ -65,12 +65,12 @@
 }
 
 .nav-button:hover {
-    background-color: #f7941E;
+    background-color: var(--primary-color);
     color: #fff;
 }
 
 .dropdown-item:hover {
-    background-color: #f7941E;
+    background-color: var(--primary-color);
     color: #fff;
 }
 
@@ -83,7 +83,7 @@
         margin-top: 0;
     }
     .navbar .dropdown:hover .nav-button {
-        background-color: #f7941E;
+        background-color: var(--primary-color);
         color: #fff;
     }
 }

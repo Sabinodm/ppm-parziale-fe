@@ -154,13 +154,16 @@ export default function MainBar(){
                 <div className="header-wrapper">
                     <MininizedNavBar elements={elements} specialElements={specialElements} specialDropdown={specialDropdown} onlyMinimizedElements={onlyMinimizedElements} />
                     <h1 className="margin-remove">
+
                         <a className="link-logo" href="#" title='Orlando Weekly' >
-                            <Image src="https://picsum.photos/230/97" alt="Logo" className="logo"/>
+                            <Image src="https://picsum.photos/230/97" alt="Logo placeholder" className="logo"/>
                         </a>
                     </h1>
-                    <a className="link-activity sponsor" href="#" title='Orlando Weekly activity' >
-                        <Image src="https://picsum.photos/728/90" alt="Orlando Weekly activity" className="sponsor"/>
-                    </a>
+                    <h2 className="sponsor">
+                        <a className="link-activity sponsor" href="#" title='Orlando Weekly activity' >
+                            <Image src="https://picsum.photos/728/90" alt="Orlando Weekly activity" className="sponsor"/>
+                        </a>
+                    </h2>
                     <SearchButtonPopUp searchDropdown={searchDropdown}/>
                 </div>
                 <FullNavbar elements={elements} specialElements={specialElements} specialDropdown={specialDropdown} searchDropdown={searchDropdown}/>

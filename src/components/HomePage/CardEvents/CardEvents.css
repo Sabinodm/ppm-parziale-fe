@@ -68,8 +68,8 @@
     align-items: center;
     align-content: center;
     text-align: center;
-    border-bottom: 1px solid #ccc;
-    color: #ccc;
+    border-bottom: 1px solid var(--dark-gray-color);
+    color: var(--dark-gray-color);
 
 }
 
@@ -77,7 +77,7 @@
     text-decoration: none;
     font-size: 16px;
     font-family: "Montserrat", Helvetica, sans-serif;
-    color: #999;
+    color: var(--light-gray-color);
     line-height: 1.5;
     font-weight: 600;
 }
@@ -93,10 +93,10 @@
 }
 
 .event-link:hover {
-    color: #f7941E;
+    color: var(--primary-color);
 }
 .event-bar-link:hover {
-    color: #f7941E;
+    color: var(--primary-color);
 }
 
 

@@ -7,7 +7,7 @@ import {faUser} from '@fortawesome/free-solid-svg-icons'
 export default function LoginButton () {
     return (
         <i className="nav-item ">
-            <Button className="nav-button" aria-expanded="false">
+            <Button className="nav-button" aria-expanded="false" aria-label="Login Button">
                 <FontAwesomeIcon icon={faUser} />
             </Button>
         </i>

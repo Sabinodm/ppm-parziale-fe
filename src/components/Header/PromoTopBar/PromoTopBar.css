@@ -1,6 +1,6 @@
 .top-bar{
     position: sticky;
-    background: #f7941E;
+    background: var(--primary-color);
     text-align: center;
     padding: 0;
     margin: 0;
@@ -9,9 +9,9 @@
 }
 
 .promo-top-bar {
-    background: #f7941E;
+    background: var(--primary-color);
     width: auto;
-    border: 1px solid #ccc9;
+    border: 1px solid var(--dark-gray-color)9;
     margin: auto;
     max-width: 998px;
     padding: 0;

@@ -12,7 +12,7 @@
     max-width: 292px;
     display: inline-block;
     position: relative;
-    border: 1px solid #ccc;
+    border: 1px solid var(--dark-gray-color);
     height: 40px;
     align-content: center;
     align-items: baseline;
@@ -29,7 +29,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    color: #ccc;
+    color: var(--dark-gray-color);
 }
 
 .icon  {
@@ -41,7 +41,7 @@
     padding-left: 40px;
     border: none;
     font-size: 10px;
-    color: #999;
+    color: var(--light-gray-color);
     font-family: Lato, Helvetica, Arial, sans-serif;
 }
 

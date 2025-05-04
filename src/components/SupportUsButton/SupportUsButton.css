@@ -5,7 +5,7 @@
     transform: rotate(-90deg);
     z-index: 5;
     animation: popIn 555ms ease 666ms forwards;
-    background-color: #f7941E;
+    background-color: var(--primary-color);
     border: none;
     cursor: pointer;
     border-radius: 10px 10px 0 0;

@@ -9,9 +9,9 @@ export default function SectionOtherPublication () {
             <p className="sister-publication-text">Read our sister publications</p>
             <div className="sister-publication-logo">
                 <Image src="https://picsum.photos/100/32?1" alt="photo related to the sister publication" className="other-image" />
-                <Image src="https://picsum.photos/100/32?2" alt="photo related to the sister publication" className="other-image" />
-                <Image src="https://picsum.photos/100/32?3" alt="photo related to the sister publication" className="other-image" />
-                <Image src="https://picsum.photos/100/32?4" alt="photo related to the sister publication" className="other-image" />
+                <Image src="https://picsum.photos/100/32?2" alt="photo related to the sister publication 1" className="other-image" />
+                <Image src="https://picsum.photos/100/32?3" alt="photo related to the sister publication 2" className="other-image" />
+                <Image src="https://picsum.photos/100/32?4" alt="photo related to the sister publication 3" className="other-image" />
             </div>
         </div>
     );

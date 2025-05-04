@@ -53,7 +53,7 @@ const bestOfLink : {title:string, link:string}[] = [
         <TitleBanner title="best of orlando" link="#"/>
         <div className="bestOf-container" >
                 <a className="bestOf-image-link" href="#" title='photo related to the article'  >
-                    <Image src="https://picsum.photos/1220/1170" alt="photo related to the article" className="bestOf-image" />
+                    <Image src="https://picsum.photos/1220/1170" alt="photo related to best of" className="bestOf-image" />
                 </a>
                 <div className="bestOf-link-container">
                     {bestOfLink.map((key, link) => (

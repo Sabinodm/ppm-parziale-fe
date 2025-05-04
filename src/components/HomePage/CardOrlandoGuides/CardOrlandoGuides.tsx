@@ -12,25 +12,25 @@ export default function CardOrlandoGuides () {
             <TitleBanner title="orlando guides" link="#"/>
             <div className="guides-container" >
                 <a className="guides-image-link" href="#" title='photo related to the article'  >
-                    <Image src="https://picsum.photos/350/127" alt="photo related to the guide" className="guides-image" />
+                    <Image src="https://picsum.photos/350/127" alt="photo related to the city guide" className="guides-image" />
                     <span className="guides-text">
                         city guides
                     </span>
                 </a>
                 <a className="guides-image-link" href="#" title='photo related to the article'  >
-                    <Image src="https://picsum.photos/350/127?1" alt="photo related to the guide" className="guides-image" />
+                    <Image src="https://picsum.photos/350/127?1" alt="photo related to the bite guide" className="guides-image" />
                     <span className="guides-text">
                         bite
                     </span>
                 </a>
                 <a className="guides-image-link" href="#" title='photo related to the article'  >
-                    <Image src="https://picsum.photos/350/127?2" alt="photo related to the guide" className="guides-image" />
+                    <Image src="https://picsum.photos/350/127?2" alt="photo related to the newcomers guide" className="guides-image" />
                     <span className="guides-text">
                         newcomers guide
                     </span>
                 </a>
                 <a className="guides-image-link" href="#" title='photo related to the article'  >
-                    <Image src="https://picsum.photos/350/127?3" alt="photo related to the guide" className="guides-image" />
+                    <Image src="https://picsum.photos/350/127?3" alt="photo related to the summer guide" className="guides-image" />
                     <span className="guides-text">
                         summer guide
                     </span>

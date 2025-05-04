@@ -1,5 +1,5 @@
 .special-nav-button {
-    background-color: #f7941E;
+    background-color: var(--primary-color);
     color: #fff;;
     border: none;
     padding: 1px 4px;

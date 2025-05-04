@@ -32,6 +32,11 @@ html, body, #root {
     width: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Prevent horizontal scrolling if there's extra content */
-    box-sizing: border-box; /* Ensure padding and borders are included in dimensions */
+    overflow-x: hidden;
+    box-sizing: border-box;
+    --primary-color: #804600;
+    --light-gray-color: #595959;
+    --gray-color: #545454;
+    --dark-gray-color: #424242;
+    --privacy-button: #11599C;
 }

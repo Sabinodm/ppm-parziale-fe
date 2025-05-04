@@ -18,7 +18,7 @@ export default function SearchButtonPopUp ({searchDropdown} : any) {
 
     return (
         <>
-            <Button onClick={togglePopUp} className="minimized-nav-button">
+            <Button onClick={togglePopUp} className="minimized-nav-button" aria-label="Toggle search pop Up">
                 <i className="fas fa-bars">
                     <FontAwesomeIcon icon={faSearch} className="bars" />
                 </i>
@@ -36,7 +36,7 @@ export default function SearchButtonPopUp ({searchDropdown} : any) {
                             <span className="search-icon">
                                 <FontAwesomeIcon icon={faSearch} className="icon" />
                             </span>
-                            <input type="text" className="search-input" placeholder="Enter Keywords..." />
+                            <input aria-label="Search input" type="text" className="search-input" placeholder="Enter Keywords..." />
                         </div>
                         <div className="popUp-wrapper">
                             <li className="item-wrapper">
