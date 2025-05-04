@@ -5,9 +5,6 @@ import {faX} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Button} from "react-bootstrap";
 import {DropdownInterface} from "../../../interfaces/DropdownInterface";
-interface DropdownParameters {
-    item: DropdownInterface
-}
 
 export default function SearchButtonPopUp ({searchDropdown} : any) {
 
