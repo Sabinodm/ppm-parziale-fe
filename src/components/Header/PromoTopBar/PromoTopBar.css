@@ -1,11 +1,11 @@
 .top-bar{
     position: sticky;
     background: #f7941E;
-    width: auto;
     text-align: center;
     padding: 6px 5px 5px;
     margin: -1px 0px 0px;
     z-index: 2;
+    width: 100%;
 }
 
 .promo-top-bar {
@@ -29,10 +29,19 @@
 .top-bar-link {
     color: #ffffff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
     font-family: Lato, Helvetica, Arial,  sans-serif;
-    padding: 5px 20px;
+    padding: 2px 10px;
+}
+
+@media (min-width: 480px) {
+    .top-bar-link {
+        font-size: 18px;
+        padding: 5px 20px;
+    }
+
+
 }

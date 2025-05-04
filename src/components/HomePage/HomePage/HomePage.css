@@ -19,6 +19,12 @@
 }
 
 
+@media (min-width: 280px) {
+    .home-container {
+        width: 280px;
+    }
+}
+
 @media (min-width: 640px) {
     .home-container {
         width: 640px;

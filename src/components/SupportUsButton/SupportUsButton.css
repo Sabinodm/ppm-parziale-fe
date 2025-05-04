@@ -36,6 +36,10 @@
 }
 
 @media (min-width: 640px) {
+
+    .supportUs-button {
+        right: -50px;
+    }
     .supportUs {
        padding: 10px;
     }
