@@ -6,11 +6,13 @@ import BackgroundPromo from "./components/BackgroundPromo/BackgroundPromo";
 import IconPromo from "./components/IconPromo/IconPromo";
 import HomePage from "./components/HomePage/HomePage/HomePage";
 import BottomPromo from "./components/BottomPromo/BottomPromo";
+import PrivacyButton from "./components/PrivacyButton/PrivacyButton";
 
 function App() {
     return (
         <div className="App">
             <BackgroundPromo/>
+            <PrivacyButton/>
             <PromoTopBar/>
             <MainBar/>
             <IconPromo/>
