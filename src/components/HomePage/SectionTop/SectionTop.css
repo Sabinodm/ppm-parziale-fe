@@ -9,7 +9,7 @@
 
 @media (min-width: 998px) {
     .top-section {
-        padding: 9px 0px;
+        padding: 9px 0;
         flex-direction: row;
 
     }

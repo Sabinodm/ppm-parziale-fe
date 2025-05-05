@@ -1,7 +1,6 @@
 import './SectionMiddle.css';
 import React from "react";
 import MiddleCardContainer from "../MiddleCardContainer/MiddleCardContainer";
-import {Image} from "react-bootstrap";
 
 export default function SectionMiddle () {
     return (
@@ -12,7 +11,7 @@ export default function SectionMiddle () {
             </div>
             <div className="section">
                 <div className="middle-section-promo">
-                    <Image src="https://picsum.photos/300/600" alt="promo" className="middle-promo-image" />
+                    <img src="https://picsum.photos/300/600" alt="promo" className="middle-promo-image" />
                 </div>
             </div>
             <div className="section">

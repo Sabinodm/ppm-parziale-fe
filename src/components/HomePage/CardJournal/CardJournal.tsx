@@ -1,13 +1,12 @@
 import './CardJournal.css';
 import React from "react";
-import {Image} from "react-bootstrap";
 
 export default function CardJournal () {
     return (
         <div className="card-journal-container" >
             <div className="journal-card">
                 <a className="journal-image-link" href="#" title='photo related to the article'  >
-                    <Image src="https://picsum.photos/148/83" alt="photo related to the article" className="article-image" />
+                    <img src="https://picsum.photos/148/83" alt="photo related to the article" className="article-image" />
                 </a>
                 <div className="journal-text-container">
                     <h3 className="text-side-journal-title">

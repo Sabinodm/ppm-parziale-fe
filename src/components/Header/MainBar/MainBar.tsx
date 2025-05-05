@@ -1,6 +1,5 @@
 import React from "react";
 import './MainBar.css';
-import {Container, Image} from "react-bootstrap";
 import FullNavbar from "../NavBar/Full/FullNavBar/FullNavBar";
 import MininizedNavBar from "../NavBar/Minimized/MinimizedNavBar/MinimizedNavBar";
 import SearchButtonPopUp from "../SearchButtonPopUp/SearchButtonPopUp";
@@ -149,25 +148,25 @@ export default function MainBar(){
 
     return (
         <div className="header">
-            <Container className="header-container">
+            <div className="header-container">
 
                 <div className="header-wrapper">
                     <MininizedNavBar elements={elements} specialElements={specialElements} specialDropdown={specialDropdown} onlyMinimizedElements={onlyMinimizedElements} />
                     <h1 className="margin-remove">
 
                         <a className="link-logo" href="#" title='Orlando Weekly' >
-                            <Image src="https://picsum.photos/230/97" alt="Logo placeholder" className="logo"/>
+                            <img src="https://picsum.photos/230/97" alt="Logo placeholder" className="logo"/>
                         </a>
                     </h1>
                     <h2 className="sponsor">
                         <a className="link-activity sponsor" href="#" title='Orlando Weekly activity' >
-                            <Image src="https://picsum.photos/728/90" alt="Orlando Weekly activity" className="sponsor"/>
+                            <img src="https://picsum.photos/728/90" alt="Orlando Weekly activity" className="sponsor"/>
                         </a>
                     </h2>
                     <SearchButtonPopUp searchDropdown={searchDropdown}/>
                 </div>
                 <FullNavbar elements={elements} specialElements={specialElements} specialDropdown={specialDropdown} searchDropdown={searchDropdown}/>
-            </Container>
+            </div>
         </div>
     );
 }

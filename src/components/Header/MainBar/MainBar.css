@@ -17,7 +17,7 @@
 
 .header-wrapper {
     position: relative;
-    padding: 10px 0px;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,7 +83,7 @@
     }
 
     .margin-remove {
-        padding-bottom: 0px;
+        padding-bottom: 0;
     }
 
 

@@ -1,6 +1,5 @@
 import './CardBestOfOrlando.css';
 import React from "react";
-import {Image} from "react-bootstrap";
 import TitleBanner from "../TitleBanner/TitleBanner";
 
 export default function CardBestOfOrlando () {
@@ -53,7 +52,7 @@ const bestOfLink : {title:string, link:string}[] = [
         <TitleBanner title="best of orlando" link="#"/>
         <div className="bestOf-container" >
                 <a className="bestOf-image-link" href="#" title='photo related to the article'  >
-                    <Image src="https://picsum.photos/1220/1170" alt="photo related to best of" className="bestOf-image" />
+                    <img src="https://picsum.photos/1220/1170" alt="photo related to best of" className="bestOf-image" />
                 </a>
                 <div className="bestOf-link-container">
                     {bestOfLink.map((key, link) => (

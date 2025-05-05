@@ -2,7 +2,6 @@ import './SectionFooter.css';
 import React from "react";
 import CardFooter from "../CardFooter/CardFooter";
 import SectionOtherPublication from "../SectionOtherPublication/SectionOtherPublication";
-import {Image} from "react-bootstrap";
 import FacebookLogo from '../../../Image/SocialLogo/FacebookLogo.png';
 import TwitterLogo from '../../../Image/SocialLogo/TwitterLogo.png';
 import InstagramLogo from  '../../../Image/SocialLogo/InstagramLogo.png';
@@ -210,7 +209,7 @@ export default function SectionFooter () {
                 <p className="footer-info-text">Lorem Ipsum</p>
                 <div className="footer-social-links">
                     <a className="footer-social-link" href="#" title="Facebook">
-                        <Image src={FacebookLogo} alt="Facebook logo" className="footer-social-icon"/>
+                        <img src={FacebookLogo} alt="Facebook logo" className="footer-social-icon"/>
                     </a>
                     <a className="footer-social-link" href="#" title="Twitter">
                         <img src={TwitterLogo} alt="Twitter logo" className="footer-social-icon"/>

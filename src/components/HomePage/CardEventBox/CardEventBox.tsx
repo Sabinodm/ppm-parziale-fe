@@ -1,6 +1,5 @@
 import './CardEventBox.css';
 import React, {useState} from "react";
-import {Button} from "react-bootstrap";
 import CardEventTab from "../CardEventTab/CardEventTab";
 
 const tabs = ['EVENTS', 'MUSIC', 'MOVIES', 'DINING' ];
@@ -13,9 +12,9 @@ export default function EventsBox () {
         <div className="box-container" >
             <div className="event-nav">
                 {tabs.map((tab) => (
-                    <Button key={tab} className={`tab ${activeTab === tab ? 'active' : ''}`} onClick={() => setActiveTab(tab)}>
+                    <button key={tab} className={`tab ${activeTab === tab ? 'active' : ''}`} onClick={() => setActiveTab(tab)}>
                         {tab}
-                    </Button>
+                    </button>
                 ))}
 
             </div>

@@ -83,14 +83,14 @@
     border: none;
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     line-height: 1.1;
-    margin: 1px 0px;
+    margin: 1px 0;
     font-size: 12px;
 }
 
 .go-wrapper {
     padding-left: 4px;
     display: flex;
-    margin: 1px 0px;
+    margin: 1px 0;
 }
 
 .go-button {

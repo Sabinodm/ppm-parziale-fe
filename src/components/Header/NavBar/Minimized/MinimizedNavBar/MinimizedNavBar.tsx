@@ -2,7 +2,6 @@ import React from "react";
 import './MinimizedNavBar.css';
 import {faBars} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {Button} from "react-bootstrap";
 import {DropdownInterface} from "../../../../../interfaces/DropdownInterface";
 import MinimizedDropDown from "../MinimizedDropdown/MinimizedDropdown";
 import MinimizedSpNavButton from "../MinimizedSpNavButton/MinimizedSpNavButton";
@@ -18,11 +17,11 @@ export default function MinimizedNavBar ({elements, specialElements, specialDrop
 
     return (
         <>
-        <Button onClick={toggleShow} className="minimized-nav-button" aria-label="Toggle navigation bar">
+        <button onClick={toggleShow} className="minimized-nav-button" aria-label="Toggle navigation bar">
             <i className="fas fa-bars">
                 <FontAwesomeIcon icon={faBars} className="bars" />
             </i>
-        </Button>
+        </button>
 
         <div className="side" id="dropdown">
             <div className="side-menu" id="dropdown">

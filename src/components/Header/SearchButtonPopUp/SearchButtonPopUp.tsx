@@ -3,7 +3,6 @@ import './SearchButtonPopUp.css';
 import {faSearch} from "@fortawesome/free-solid-svg-icons";
 import {faX} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {Button} from "react-bootstrap";
 import {DropdownInterface} from "../../../interfaces/DropdownInterface";
 
 export default function SearchButtonPopUp ({searchDropdown} : any) {
@@ -18,12 +17,12 @@ export default function SearchButtonPopUp ({searchDropdown} : any) {
 
     return (
         <>
-            <Button onClick={togglePopUp} className="minimized-nav-button" aria-label="Toggle search pop Up">
+            <button onClick={togglePopUp} className="minimized-nav-button" aria-label="Toggle search pop Up">
                 <i className="fas fa-bars">
                     <FontAwesomeIcon icon={faSearch} className="bars" />
                 </i>
 
-            </Button>
+            </button>
             <div onClick={togglePopUp} className="popUp-background" id="popUp">
                 <div className="popUp" onClick={(e) => e.stopPropagation()} >
                         <div className="header-wrapper-popUp">
