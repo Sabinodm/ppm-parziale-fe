@@ -1,6 +1,7 @@
 import './CardEventBox.css';
 import React, {useState} from "react";
 import {Button} from "react-bootstrap";
+import CardEventTab from "../CardEventTab/CardEventTab";
 
 const tabs = ['EVENTS', 'MUSIC', 'MOVIES', 'DINING' ];
 
@@ -21,24 +22,22 @@ export default function EventsBox () {
             <div className="tab-content">
                 {activeTab === 'EVENTS' && (
                     <>
-                        <div className="element-tab">
-                            {/*TODO aggiungere tab eventi*/}
-                        </div>
+                        <CardEventTab section="events"/>
                     </>
                 )}
                 {activeTab === 'MUSIC' && (
                     <>
-                        {/*TODO aggiungere tab eventi*/}
+                        <CardEventTab section="music"/>
                     </>
                 )}
                 {activeTab === 'MOVIES' && (
                     <>
-                        {/*TODO aggiungere tab eventi*/}
+                        <CardEventTab section="movies"/>
                     </>
                 )}
                 {activeTab === 'DINING' && (
                     <>
-                        {/*TODO aggiungere tab eventi*/}
+                        <CardEventTab section="dining"/>
                     </>
                 )}
             </div>

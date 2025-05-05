@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import PromoTopBar from "./components/Header/PromoTopBar/PromoTopBar";
 import MainBar from "./components/Header/MainBar/MainBar";
 import BackgroundPromo from "./components/BackgroundPromo/BackgroundPromo";
