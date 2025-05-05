@@ -17,16 +17,16 @@ export default function CardDigitalIssue() {
             <Carousel interval={null} fade={true} indicators={false} controls={true}   className="carousel-container">
 
                 <Carousel.Item>
-                    <img src="https://picsum.photos/320/270" alt="photo related to the article" className="digitalIssue-image" />
+                    <img src="https://picsum.photos/320/270" alt="photo related to the carousel 1" className="digitalIssue-image" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src="https://picsum.photos/320/270?1" alt="photo related to the article" className="digitalIssue-image" />
+                    <img src="https://picsum.photos/320/270?1" alt="photo related to the carousel 2" className="digitalIssue-image" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src="https://picsum.photos/320/270?2" alt="photo related to the article" className="digitalIssue-image" />
+                    <img src="https://picsum.photos/320/270?2" alt="photo related to the carousel 3" className="digitalIssue-image" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src="https://picsum.photos/320/270?3" alt="photo related to the article" className="digitalIssue-image" />
+                    <img src="https://picsum.photos/320/270?3" alt="photo related to the carousel 4" className="digitalIssue-image" />
                 </Carousel.Item>
             </Carousel>
             <div className="digitalIssue-card-button">
