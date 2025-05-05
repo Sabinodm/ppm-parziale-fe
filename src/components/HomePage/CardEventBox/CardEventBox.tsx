@@ -12,7 +12,7 @@ export default function EventsBox () {
         <div className="box-container" >
             <div className="event-nav">
                 {tabs.map((tab) => (
-                    <button key={tab} className={`tab ${activeTab === tab ? 'active' : ''}`} onClick={() => setActiveTab(tab)}>
+                    <button key={tab} className={`tab ${activeTab === tab ? 'active-tab' : ''}`} onClick={() => setActiveTab(tab)}>
                         {tab}
                     </button>
                 ))}

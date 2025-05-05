@@ -8,7 +8,7 @@ export default function CardEventTab ({section} : {section: string}) {
   if (section === 'events' || section === 'music') {
     return (
         <div className="event-tab-container">
-            <select className="event-tab-button">
+            <select className="event-tab-button" aria-label="Select a date">
                     <option value="">-All Dates-</option>
                     <option value="2025-05-05">Monday, May 5</option>
                     <option value="2025-05-06">Tuesday, May 6</option>
@@ -42,7 +42,7 @@ export default function CardEventTab ({section} : {section: string}) {
                     <option value="2025-06-03">Tuesday, June 3</option>
                     <option value="2025-06-04">Wednesday, June 4</option>
             </select>
-            <select className="event-tab-button">
+            <select className="event-tab-button" aria-label="Select a category">
                 <option>-All Categories-</option>
                 <optgroup label="calendar">
                     <option>Art: Classes</option>
@@ -94,9 +94,8 @@ export default function CardEventTab ({section} : {section: string}) {
                     <option>Trivia</option>
                 </optgroup>
             </select>
-            <select className="event-tab-button">
+            <select className="event-tab-button" aria-label="Select a neighborhood">
                 <option>-All Neighborhoods-</option>
-                <optgroup label="selector">
                     <option>Apopka</option>
                     <option>Central</option>
                     <option>Audubon Park</option>
@@ -132,7 +131,6 @@ export default function CardEventTab ({section} : {section: string}) {
                     <option>Lake Nona</option>
                     <option>Colonialtown</option>
                     <option>New Smyrna</option>
-                </optgroup>
             </select>
             <div className="event-search">
                 <div className="event-tab-button">
@@ -151,7 +149,7 @@ export default function CardEventTab ({section} : {section: string}) {
     if (section === 'movies') {
         return (
             <div className="event-tab-container">
-                <select className="event-tab-button">
+                <select className="event-tab-button" aria-label="Select a movie">
                     <option>Select a movie</option>
                         <option>Abby's List: A Documentary</option>
                         <option>The Accountant 2</option>
@@ -178,7 +176,7 @@ export default function CardEventTab ({section} : {section: string}) {
                 <div className="or-space">
                     <span className="or-text">or</span>
                 </div>
-                <select className="event-tab-button">
+                <select className="event-tab-button" aria-label="Select a location">
                     <option>Select a location</option>
                         <option>Central</option>
                         <option>- Orlando Fashion Square</option>
@@ -228,7 +226,7 @@ export default function CardEventTab ({section} : {section: string}) {
     if (section === 'dining') {
         return (
             <div className="event-tab-container">
-                <select className="event-tab-button">
+                <select className="event-tab-button" aria-label="Select a category">
                     <option>-All Categories-</option>
                         <option>African</option>
                         <option>American</option>
@@ -325,9 +323,8 @@ export default function CardEventTab ({section} : {section: string}) {
                         <option>Vietnamese</option>
                         <option>Wine</option>
                 </select>
-                <select className="event-tab-button">
+                <select className="event-tab-button" aria-label="Select a neighborhood">
                     <option>-All Neighborhoods-</option>
-                    <optgroup label="selector">
                         <option>Apopka</option>
                         <option>Central</option>
                         <option>Audubon Park</option>
@@ -363,7 +360,6 @@ export default function CardEventTab ({section} : {section: string}) {
                         <option>Lake Nona</option>
                         <option>Colonialtown</option>
                         <option>New Smyrna</option>
-                    </optgroup>
                 </select>
                 <div className="event-search">
                     <div className="event-tab-button">
